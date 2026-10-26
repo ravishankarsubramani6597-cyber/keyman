@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -154,8 +154,23 @@
 		CEF4E55723E95B7B0065B9C7 /* ImageBanner.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF4E55523E95B7B0065B9C7 /* ImageBanner.xib */; };
 		CEF4E55923E967140065B9C7 /* ImageBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4E55823E967140065B9C7 /* ImageBannerViewController.swift */; };
 		CEF4E55A23E967140065B9C7 /* ImageBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4E55823E967140065B9C7 /* ImageBannerViewController.swift */; };
+		DF0222C13088A6070072A032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0222C03088A5FF0072A032 /* SceneDelegate.swift */; };
+		DF18A868307C2F7500E10961 /* EmojiCatalog.json in Resources */ = {isa = PBXBuildFile; fileRef = DF18A867307C2F7500E10961 /* EmojiCatalog.json */; };
+		DF18A869307C2F7500E10961 /* EmojiCatalog.json in Resources */ = {isa = PBXBuildFile; fileRef = DF18A867307C2F7500E10961 /* EmojiCatalog.json */; };
+		DF18A86B307C4A9E00E10961 /* KeySenseEmojiCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18A86A307C4A8B00E10961 /* KeySenseEmojiCompatibility.swift */; };
+		DF18A86C307C4A9E00E10961 /* KeySenseEmojiCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18A86A307C4A8B00E10961 /* KeySenseEmojiCompatibility.swift */; };
+		DF752D5530788983000AEDC2 /* KeySenseEmojiHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF752D5430788975000AEDC2 /* KeySenseEmojiHistory.swift */; };
+		DF752D5630788983000AEDC2 /* KeySenseEmojiHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF752D5430788975000AEDC2 /* KeySenseEmojiHistory.swift */; };
+		DFCD6D1A308AC87C00C702C0 /* KeySenseSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD6D17308AC87400C702C0 /* KeySenseSettingsViewController.swift */; };
+		DFCD6D1B308AC87C00C702C0 /* KeySenseSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD6D17308AC87400C702C0 /* KeySenseSettingsViewController.swift */; };
+		DFCD6D20308AF58A00C702C0 /* KeySenseAppearanceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD6D1F308AF58700C702C0 /* KeySenseAppearanceSettings.swift */; };
+		DFCD6D21308AF58A00C702C0 /* KeySenseAppearanceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD6D1F308AF58700C702C0 /* KeySenseAppearanceSettings.swift */; };
 		DFEC3DAB305F7AF20036A3FF /* ZIPFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296EF2C32AFA267500E3E384 /* ZIPFoundation.xcframework */; };
 		DFEC3DAC305F7AF20036A3FF /* ZIPFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 296EF2C32AFA267500E3E384 /* ZIPFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DFF8CBB23075EFE700537FBF /* KeySenseEmojiCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8CBB13075EFDB00537FBF /* KeySenseEmojiCatalog.swift */; };
+		DFF8CBB33075EFE700537FBF /* KeySenseEmojiCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8CBB13075EFDB00537FBF /* KeySenseEmojiCatalog.swift */; };
+		DFF8CBB83075F49100537FBF /* KeySenseEmojiPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8CBB73075F48B00537FBF /* KeySenseEmojiPanelViewController.swift */; };
+		DFF8CBB93075F49100537FBF /* KeySenseEmojiPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8CBB73075F48B00537FBF /* KeySenseEmojiPanelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -342,7 +357,19 @@
 		CEF4E55523E95B7B0065B9C7 /* ImageBanner.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageBanner.xib; sourceTree = "<group>"; };
 		CEF4E55823E967140065B9C7 /* ImageBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBannerViewController.swift; sourceTree = "<group>"; };
 		D88EC3FC2D785C500022CB80 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DF0222C03088A5FF0072A032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF18A867307C2F7500E10961 /* EmojiCatalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EmojiCatalog.json; sourceTree = "<group>"; };
+		DF18A86A307C4A8B00E10961 /* KeySenseEmojiCompatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySenseEmojiCompatibility.swift; sourceTree = "<group>"; };
+		DF752D5430788975000AEDC2 /* KeySenseEmojiHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySenseEmojiHistory.swift; sourceTree = "<group>"; };
+		DFCD6D17308AC87400C702C0 /* KeySenseSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySenseSettingsViewController.swift; sourceTree = "<group>"; };
+		DFCD6D1F308AF58700C702C0 /* KeySenseAppearanceSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySenseAppearanceSettings.swift; sourceTree = "<group>"; };
+		DFF8CBB13075EFDB00537FBF /* KeySenseEmojiCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySenseEmojiCatalog.swift; sourceTree = "<group>"; };
+		DFF8CBB73075F48B00537FBF /* KeySenseEmojiPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySenseEmojiPanelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DF44CE5E30676B9000A39970 /* KeySense */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = KeySense; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		981AFA8319EF44DE006706BF /* Frameworks */ = {
@@ -555,6 +582,7 @@
 				16A9229D20325253003CC98E /* Info.plist */,
 				162E2C9420926C8600F40769 /* Classes */,
 				C0E943F91F6124E100E7D98C /* AppDelegate.swift */,
+				DF0222C03088A5FF0072A032 /* SceneDelegate.swift */,
 				CE7FF1EF239A0293007859D9 /* PackageBrowserViewController.swift */,
 				29CA9A612B4F9B0B00EAB099 /* KeymanLogger.swift */,
 			);
@@ -637,6 +665,10 @@
 		98CD125D19CA85710089385F /* SWKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				DFCD6D1F308AF58700C702C0 /* KeySenseAppearanceSettings.swift */,
+				DFCD6D17308AC87400C702C0 /* KeySenseSettingsViewController.swift */,
+				DFF8CBB03075EFC900537FBF /* Emoji */,
+				DF44CE5E30676B9000A39970 /* KeySense */,
 				98CD127619CA866B0089385F /* SWKeyboard.entitlements */,
 				98CD125E19CA85710089385F /* Supporting Files */,
 				C0FF769A1F5D368C00BD23C3 /* KeyboardViewController.swift */,
@@ -673,6 +705,18 @@
 				CE1F5ECD23331DA400141F3E /* OfflineHelp.bundle */,
 			);
 			path = resources;
+			sourceTree = "<group>";
+		};
+		DFF8CBB03075EFC900537FBF /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				DF18A86A307C4A8B00E10961 /* KeySenseEmojiCompatibility.swift */,
+				DF752D5430788975000AEDC2 /* KeySenseEmojiHistory.swift */,
+				DF18A867307C2F7500E10961 /* EmojiCatalog.json */,
+				DFF8CBB73075F48B00537FBF /* KeySenseEmojiPanelViewController.swift */,
+				DFF8CBB13075EFDB00537FBF /* KeySenseEmojiCatalog.swift */,
+			);
+			path = Emoji;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -713,6 +757,9 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				DF44CE5E30676B9000A39970 /* KeySense */,
+			);
 			name = Keyman;
 			productName = KeymanTouch;
 			productReference = 981AFAE119EF44DE006706BF /* Keyman.app */;
@@ -732,6 +779,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DF44CE5E30676B9000A39970 /* KeySense */,
 			);
 			name = SWKeyboard;
 			productName = SWKeyboard;
@@ -834,6 +884,7 @@
 				9845A7AE1A43983300544E2E /* kmwb-navbar-Landscape.png in Resources */,
 				981AFAA519EF44DE006706BF /* 724-info-selected@2x.png in Resources */,
 				981AFAA919EF44DE006706BF /* 702-share-selected@2x.png in Resources */,
+				DF18A869307C2F7500E10961 /* EmojiCatalog.json in Resources */,
 				982D14A119FF462A007D4629 /* textsize@3x.png in Resources */,
 				9845A8CD1A439F1000544E2E /* 715-globe-toolbar@2x.png in Resources */,
 				982D149B19FF462A007D4629 /* textsize_down@3x.png in Resources */,
@@ -919,6 +970,7 @@
 				985EA9E419E64A580006C017 /* banner-Landscape~ipad.png in Resources */,
 				985EA9E019E64A580006C017 /* banner-Landscape-568h@3x.png in Resources */,
 				CE76FF8023EBB5CB005648A8 /* Images.xcassets in Resources */,
+				DF18A868307C2F7500E10961 /* EmojiCatalog.json in Resources */,
 				985EA9E719E64A580006C017 /* banner-Portrait@2x~ipad.png in Resources */,
 				985EA9E519E64A580006C017 /* banner-Portrait.png in Resources */,
 				985EA9E319E64A580006C017 /* banner-Landscape@2x~ipad.png in Resources */,
@@ -1028,7 +1080,11 @@
 			files = (
 				165EB39C2097181D00040A69 /* KMView.swift in Sources */,
 				29CA9A622B4F9B0B00EAB099 /* KeymanLogger.swift in Sources */,
+				DFCD6D20308AF58A00C702C0 /* KeySenseAppearanceSettings.swift in Sources */,
+				DF18A86C307C4A9E00E10961 /* KeySenseEmojiCompatibility.swift in Sources */,
+				DF752D5630788983000AEDC2 /* KeySenseEmojiHistory.swift in Sources */,
 				C055F0B11F60E8D400140735 /* GetStartedViewController.swift in Sources */,
+				DF0222C13088A6070072A032 /* SceneDelegate.swift in Sources */,
 				C055F0B51F610FB200140735 /* DropDownListView.swift in Sources */,
 				CE7FF1F0239A0293007859D9 /* PackageBrowserViewController.swift in Sources */,
 				C0E943F81F61234C00E7D98C /* UIImage+Helpers.swift in Sources */,
@@ -1040,6 +1096,9 @@
 				C0A1A6371F5E8C9100EAF822 /* WebBrowserViewController.swift in Sources */,
 				C0E943FA1F6124E100E7D98C /* AppDelegate.swift in Sources */,
 				CE79B23C23C6E8E6007E72AE /* KeyboardViewController.swift in Sources */,
+				DFCD6D1B308AC87C00C702C0 /* KeySenseSettingsViewController.swift in Sources */,
+				DFF8CBB33075EFE700537FBF /* KeySenseEmojiCatalog.swift in Sources */,
+				DFF8CBB83075F49100537FBF /* KeySenseEmojiPanelViewController.swift in Sources */,
 				C0A1A6351F5E786A00EAF822 /* BookmarksViewController.swift in Sources */,
 				162E2C9D2092BFE400F40769 /* KMUnderscoreView.swift in Sources */,
 				C0A1A6331F5E749000EAF822 /* SetUpViewController.swift in Sources */,
@@ -1054,8 +1113,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF18A86B307C4A9E00E10961 /* KeySenseEmojiCompatibility.swift in Sources */,
+				DF752D5530788983000AEDC2 /* KeySenseEmojiHistory.swift in Sources */,
+				DFCD6D1A308AC87C00C702C0 /* KeySenseSettingsViewController.swift in Sources */,
 				CEF4E55A23E967140065B9C7 /* ImageBannerViewController.swift in Sources */,
+				DFF8CBB93075F49100537FBF /* KeySenseEmojiPanelViewController.swift in Sources */,
 				29B30C212B56325D00C342A4 /* KeymanLogger.swift in Sources */,
+				DFF8CBB23075EFE700537FBF /* KeySenseEmojiCatalog.swift in Sources */,
+				DFCD6D21308AF58A00C702C0 /* KeySenseAppearanceSettings.swift in Sources */,
 				C0FF769B1F5D368C00BD23C3 /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

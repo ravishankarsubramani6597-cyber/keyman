@@ -31,6 +31,7 @@ class KeymanWebView: WKWebView {
   override public func becomeFirstResponder() -> Bool {
     return false;
   }
+  
 }
 
 // MARK: - UIViewController
@@ -138,6 +139,10 @@ class KeymanWebViewController: UIViewController {
         webView!.isInspectable = true
       }
     }
+    
+    if #available(iOS 27.0, *) {
+        webView?.scrollView.topEdgeEffect.isHidden = true
+    }
 
     // Disable WKWebView default layout-constraint manipulations. We ensure
     // safe-area boundaries are respected via InputView / InputViewController
@@ -230,6 +235,17 @@ extension KeymanWebViewController {
 
   func setPopupVisible(_ visible: Bool) {
     webView!.evaluateJavaScript("popupVisible(\(visible));", completionHandler: nil)
+  }
+  
+  func keySenseSetInputModeSwitchKeyRequired(
+      _ required: Bool
+  ) {
+      let value = required ? "true" : "false"
+
+      webView?.evaluateJavaScript(
+          "keySenseSetInputModeSwitchKeyRequired(\(value));",
+          completionHandler: nil
+      )
   }
 
   private func setSpacebarText(_ mode: SpacebarText) {
@@ -480,8 +496,68 @@ extension KeymanWebViewController: WKScriptMessageHandler {
     guard let fragment = message.body as? String, !fragment.isEmpty else {
       return
     }
+    
+    if fragment == "#keysensePredictionSelection" {
+        os_log(
+            "[KEYSENSE PREDICTION] Suggestion tapped",
+            log: KeymanEngineLogger.engine,
+            type: .info
+        )
 
-    if fragment.hasPrefix("#insertText-") {
+        delegate?.keySensePredictionSelection(self)
+
+        return
+    }
+    
+    if fragment == "#keysenseShowEmoji" {
+
+        os_log(
+            "[KEYSENSE EMOJI UI] Show emoji request reached Swift",
+            log: KeymanEngineLogger.engine,
+            type: .info
+        )
+
+        delegate?.keySenseShowEmoji(
+            self
+        )
+
+        return
+    }
+    
+    if fragment == "#keysenseShowSettings" {
+
+        os_log(
+            "[KEYSENSE SETTINGS UI] Show settings request reached Swift",
+            log: KeymanEngineLogger.engine,
+            type: .info
+        )
+
+        delegate?.keySenseShowSettings(
+            self
+        )
+
+        return
+    }
+    
+    if fragment.hasPrefix("#keysenseKey-") {
+        let prefix = "#keysenseKey-"
+        let category = String(
+          fragment.dropFirst(prefix.count)
+        )
+      
+      os_log(
+              "[KEYSENSE BRIDGE] Category reached Swift: %{public}s",
+              log: KeymanEngineLogger.engine,
+              type: .info,
+              category
+      )
+      
+      delegate?.keySenseKeyEvent(
+          self,
+          category: category
+      )
+
+    } else if fragment.hasPrefix("#insertText-") {
       let dnRange = fragment.range(of: "+dn=")!
       let sRange = fragment.range(of: "+s=")!
       let drRange = fragment.range(of: "+dr=")!
@@ -731,7 +807,7 @@ extension KeymanWebViewController {
     var height: CGFloat
 
     // get orientation differently if system or in-app keyboard
-    let portrait = Util.isSystemKeyboard ? InputViewController.isPortrait : UIDevice.current.orientation.isPortrait
+    let portrait = InputViewController.isPortrait
 
     /**
      * If keyboard height is saved in UserDefaults, then use it
@@ -815,19 +891,28 @@ extension KeymanWebViewController {
       return kbSize
     }
     set(size) {
-      // Only perform set management code if the size values has actually changed.
-      // We tend to get a lot of noise on this, so filtering like this also helps increase
-      // stability and performance.
-      //
-      // Note that since viewWillLayoutSubviews is triggered by touch events (for some reason) as
-      // well as view transitions, this helps to prevent issues that arise from replacing the OSK
-      // on touch events that would otherwise occur - at present, a resize operation in KMW
-      // automatically replaces the OSK.
-      if kbSize != size {
-        kbSize = size
-        setOskWidth(Int(size.width))
-        setOskHeight(Int(size.height))
-      }
+
+        // iOS may temporarily report a zero-sized input view
+        // while establishing the keyboard connection.
+        // Do not propagate that invalid size into KeymanWeb.
+        guard size.width > 0,
+              size.height > 0 else {
+
+            os_log(
+                "Ignoring transient invalid keyboardSize %{public}s",
+                log: KeymanEngineLogger.ui,
+                type: .debug,
+                NSCoder.string(for: size)
+            )
+
+            return
+        }
+
+        if kbSize != size {
+            kbSize = size
+            setOskWidth(Int(size.width))
+            setOskHeight(Int(size.height))
+        }
     }
   }
 

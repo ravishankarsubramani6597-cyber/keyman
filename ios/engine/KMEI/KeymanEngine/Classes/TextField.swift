@@ -58,13 +58,13 @@ public class TextField: UITextField, KeymanResponder {
 
   // MARK: - Class Overrides
   public override var inputViewController: UIInputViewController? {
-    get {
-      return Manager.shared.inputViewController
-    }
+      get {
+          return nil
+      }
 
-    set(inputViewController) {
-      _ = inputViewController
-    }
+      set(inputViewController) {
+          _ = inputViewController
+      }
   }
 
   // Prevent the delegate being set to anything but the delegateProxy

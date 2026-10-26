@@ -78,21 +78,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // TODO:  Assign a subclassed version of InputViewController that implements the image stuff.
     Manager.shared.inputViewController = KeyboardViewController(forSystem: false)
 
-    window = UIWindow(frame: UIScreen.main.bounds)
-
-    // Initialize overlayWindow
-    _ = overlayWindow
-
-    // Override point for customization after application launch.
-    viewController = MainViewController()
-    let navigationController = UINavigationController(rootViewController: viewController)
-
-    // Navigation bar became translucent by default in iOS7 SDK, however we don't want it to be translucent.
-    navigationController.navigationBar.isTranslucent = false
-
-    window!.rootViewController = navigationController
-    window!.makeKeyAndVisible()
-
     // TODO: look in documents directory for .zip / .kmp files
     // TODO: OR browse documents Dir from new keyboard window
     // self.installAdhocKeyboard(filePath: "")
@@ -164,7 +149,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var overlayWindow: UIWindow {
     if _overlayWindow == nil {
-      _overlayWindow = UIWindow(frame: UIScreen.main.bounds)
+
+      if let windowScene = window?.windowScene {
+
+          _overlayWindow = UIWindow(windowScene: windowScene)
+          _overlayWindow?.frame = windowScene.coordinateSpace.bounds
+
+      } else {
+
+          _overlayWindow = UIWindow(frame: UIScreen.main.bounds)
+      }
       _overlayWindow!.rootViewController = UIViewController()
       _overlayWindow!.autoresizingMask = [.flexibleWidth, .flexibleHeight]
       _overlayWindow!.autoresizesSubviews = true
@@ -175,7 +169,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     // Workaround to display overlay window above keyboard
-    let windows = UIApplication.shared.windows
+    let windows = window?.windowScene?.windows ?? []
     if let lastWindow = windows.last {
       _overlayWindow!.windowLevel = lastWindow.windowLevel + 1
     }

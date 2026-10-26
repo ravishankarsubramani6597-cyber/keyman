@@ -7,8 +7,9 @@
 //
 
 import AudioToolbox
-import UIKit
+import Foundation
 import os.log
+import UIKit
 
 public enum GlobeKeyTapBehaviour {
   case switchToNextKeyboard
@@ -87,11 +88,11 @@ private class CustomInputView: UIInputView, UIInputViewAudioFeedback {
     let guide = self.safeAreaLayoutGuide
 
     // Fallback on earlier versions
-    innerView.topAnchor.constraint(equalTo:    guide.topAnchor).isActive = true
+    innerView.topAnchor.constraint(equalTo: guide.topAnchor).isActive = true
     innerView.bottomAnchor.constraint(equalTo: guide.bottomAnchor).isActive = true
 
-    innerView.leftAnchor.constraint(equalTo:   guide.leftAnchor).isActive = true
-    innerView.rightAnchor.constraint(equalTo:  guide.rightAnchor).isActive = true
+    innerView.leftAnchor.constraint(equalTo: guide.leftAnchor).isActive = true
+    innerView.rightAnchor.constraint(equalTo: guide.rightAnchor).isActive = true
 
     // Allow these to be broken if/as necessary to resolve layout issues.
     let kbdWidthConstraint = innerView.widthAnchor.constraint(equalTo: guide.widthAnchor)
@@ -127,15 +128,18 @@ private class CustomInputView: UIInputView, UIInputViewAudioFeedback {
   }
 
   private func buildKeyboardHeightConstraints(bannerHeight: CGFloat) {
-    os_log("CustomInputView buildKeyboardHeightConstraints", log: KeymanEngineLogger.ui, type: .info)
+    os_log(
+      "CustomInputView buildKeyboardHeightConstraints", log: KeymanEngineLogger.ui, type: .info)
     let innerView = keymanWeb.view!
 
     // Cannot be met by the in-app keyboard, but helps to 'force' height for the system keyboard.
-    let portraitHeightConstraint = innerView.heightAnchor.constraint(equalToConstant: bannerHeight + keymanWeb.readKeyboardHeight(isPortrait: true)!)
+    let portraitHeightConstraint = innerView.heightAnchor.constraint(
+      equalToConstant: bannerHeight + keymanWeb.readKeyboardHeight(isPortrait: true)!)
     portraitHeightConstraint.identifier = "Height constraint for portrait mode"
     portraitHeightConstraint.priority = .defaultHigh
 
-    let landscapeHeightConstraint = innerView.heightAnchor.constraint(equalToConstant: bannerHeight + keymanWeb.readKeyboardHeight(isPortrait: false)!)
+    let landscapeHeightConstraint = innerView.heightAnchor.constraint(
+      equalToConstant: bannerHeight + keymanWeb.readKeyboardHeight(isPortrait: false)!)
     landscapeHeightConstraint.identifier = "Height constraint for landscape mode"
     landscapeHeightConstraint.priority = .defaultHigh
 
@@ -181,14 +185,18 @@ open class InputViewController: UIInputViewController, KeymanWebDelegate {
   private var keymanWeb: KeymanWebViewController
   private var swallowBackspaceTextChange: Bool = false
 
+  // Custom OSLog so logs reliably output to Xcode Console & macOS Console app
+  private let keyLogger = OSLog(
+    subsystem: "group.com.dal.keyman.keysense", category: "KeyLogger")
+
   open class var isPortrait: Bool {
-    return UIScreen.main.bounds.width < UIScreen.main.bounds.height
+      return UIScreen.main.bounds.width < UIScreen.main.bounds.height
   }
 
   open class var topBarHeight: CGFloat {
     let scaling = KeyboardScaleMap.getDeviceDefaultKeyboardScale(forPortrait: self.isPortrait)
 
-    return scaling?.bannerHeight ?? 38 // default for iPhone SE, older/smaller devices
+    return scaling?.bannerHeight ?? 38  // default for iPhone SE, older/smaller devices
   }
 
   private var keyboardListCount: Int {
@@ -272,7 +280,8 @@ open class InputViewController: UIInputViewController, KeymanWebDelegate {
 
     let shouldSynchronize: Bool
     if let standardDate = standardDate,
-       let activeDate = activeDate {
+      let activeDate = activeDate
+    {
       shouldSynchronize = standardDate != activeDate
     } else if activeDate == nil {
       shouldSynchronize = false
@@ -287,14 +296,16 @@ open class InputViewController: UIInputViewController, KeymanWebDelegate {
         reload()
       }
       Manager.shared.didSynchronize = true
-      standardUserDef.set(activeUserDef.object(forKey: Key.synchronizeSWKeyboard),
-                          forKey: Key.synchronizeSWKeyboard)
+      standardUserDef.set(
+        activeUserDef.object(forKey: Key.synchronizeSWKeyboard),
+        forKey: Key.synchronizeSWKeyboard)
       standardUserDef.synchronize()
     }
   }
 
   open override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
+    os_log("[KeyLogger] 🚀 Keyboard appearing", log: keyLogger, type: .default)
     self.reloadIfNeeded()
   }
 
@@ -310,12 +321,19 @@ open class InputViewController: UIInputViewController, KeymanWebDelegate {
 
     keymanWeb.verifyLoaded()
   }
+  
+  open func keySenseUpdateInputModeSwitchKeyRequirement() {
+      keymanWeb.keySenseSetInputModeSwitchKeyRequired(
+          needsInputModeSwitchKey
+      )
+  }
 
   open override func viewWillDisappear(_ animated: Bool) {
     super.viewWillDisappear(animated)
+
     // Necessary for existing infrastructure to resend info for the keyboard after reloading
     // as system keyboard. Do NOT perform if in-app, as this unnecessarily resets the WebView.
-    if(Manager.shared.isSystemKeyboard) {
+    if Manager.shared.isSystemKeyboard {
       keymanWeb.shouldReload = true
     }
   }
@@ -339,7 +357,9 @@ open class InputViewController: UIInputViewController, KeymanWebDelegate {
 
     // Apparently, in system-keyboard mode, this is also self-triggered if we erase back to a newline.
     // Refer to https://github.com/keymanapp/keyman/pull/2770 for context.
-    if self.swallowBackspaceTextChange && Manager.shared.isSystemKeyboard && textDocumentProxy.documentContextBeforeInput == "\n" {
+    if self.swallowBackspaceTextChange && Manager.shared.isSystemKeyboard
+      && textDocumentProxy.documentContextBeforeInput == "\n"
+    {
       self.swallowBackspaceTextChange = false
       return
     }
@@ -380,7 +400,7 @@ open class InputViewController: UIInputViewController, KeymanWebDelegate {
       }
     }
   }
-
+  
   func deleteSelection() -> Bool {
     if let selected = textDocumentProxy.selectedText, selected.count > 0 {
       let beforeManipulation = textDocumentProxy.documentContextBeforeInput ?? ""
@@ -391,7 +411,9 @@ open class InputViewController: UIInputViewController, KeymanWebDelegate {
       let afterManipulation = textDocumentProxy.documentContextBeforeInput ?? ""
 
       if beforeManipulation != afterManipulation {
-        os_log(.error, log: KeymanEngineLogger.engine, "Could not cleanly execute backspace for selected text")
+        os_log(
+          .error, log: KeymanEngineLogger.engine,
+          "Could not cleanly execute backspace for selected text")
       }
 
       return true
@@ -399,6 +421,60 @@ open class InputViewController: UIInputViewController, KeymanWebDelegate {
     return false
   }
 
+  //KEYSENSE Methods..
+  func keySenseKeyEvent(
+      _ keymanWeb: KeymanWebViewController,
+      category: String
+  ) {
+  
+      os_log(
+          "[KEYSENSE FORWARD] InputViewController received: %{public}s",
+          log: KeymanEngineLogger.engine,
+          type: .info,
+          category
+      )
+      didReceiveKeySenseKey(category)
+  
+  }
+  
+  open func didReceiveKeySenseKey(
+      _ category: String
+  ) {
+      // Intentionally empty.
+      // The SWKeyboard subclass will override this.
+  }
+  
+  func keySensePredictionSelection(
+      _ keymanWeb: KeymanWebViewController
+  ) {
+      didReceiveKeySensePredictionSelection()
+  }
+
+  open func didReceiveKeySensePredictionSelection() {
+      // Intentionally empty.
+      // SWKeyboard overrides this method.
+  }
+  
+  func keySenseShowEmoji(
+      _ keymanWeb: KeymanWebViewController
+  ) {
+
+      didReceiveKeySenseShowEmoji()
+  }
+  
+  func keySenseShowSettings(
+      _ keymanWeb: KeymanWebViewController
+  ) {
+      didReceiveKeySenseShowSettings()
+  }
+
+  open func didReceiveKeySenseShowEmoji() {
+  }
+  
+  open func didReceiveKeySenseShowSettings() {
+      // Default no-op.
+  }
+  
   func insertText(_ keymanWeb: KeymanWebViewController, numCharsToDelete: Int, newText: String) {
     if isInputClickSoundEnabled {
       UIDevice.current.playInputClick()
@@ -429,16 +505,21 @@ open class InputViewController: UIInputViewController, KeymanWebDelegate {
       let unitsInPoint = InputViewController.isSurrogate(oldContext.utf16.last ?? 0) ? 2 : 1
 
       if unitsDeleted > unitsInPoint {
-        let lowerIndex = oldContext.utf16.index(oldContext.utf16.startIndex,
-                                                offsetBy: newContext.utf16.count)
-        let upperIndex = oldContext.utf16.index(lowerIndex, offsetBy: unitsDeleted - unitsInPoint)
+        let lowerIndex = oldContext.utf16.index(
+          oldContext.utf16.startIndex,
+          offsetBy: newContext.utf16.count)
+        let upperIndex = oldContext.utf16.index(
+          lowerIndex, offsetBy: unitsDeleted - unitsInPoint)
         textDocumentProxy.insertText(String(oldContext[lowerIndex..<upperIndex]))
       }
 
-      if textDocumentProxy.documentContextBeforeInput == nil ||
-         (textDocumentProxy.documentContextBeforeInput == "\n" && Manager.shared.isSystemKeyboard) {
-        if(self.swallowBackspaceTextChange) {
-          os_log("Failed to swallow a recent textDidChange call!", log: KeymanEngineLogger.ui, type: .default)
+      if textDocumentProxy.documentContextBeforeInput == nil
+        || (textDocumentProxy.documentContextBeforeInput == "\n" && Manager.shared.isSystemKeyboard)
+      {
+        if self.swallowBackspaceTextChange {
+          os_log(
+            "Failed to swallow a recent textDidChange call!", log: KeymanEngineLogger.ui,
+            type: .default)
         }
         self.swallowBackspaceTextChange = true
       }
@@ -482,10 +563,10 @@ open class InputViewController: UIInputViewController, KeymanWebDelegate {
     if isSystemKeyboard {
       switch menuBehaviour {
       case .showAlways,
-           .showIfMultipleKeyboards where keyboardListCount > 1:
+        .showIfMultipleKeyboards where keyboardListCount > 1:
         keymanWeb.showKeyboardMenu(self, closeButtonTitle: menuCloseButtonTitle)
       case .showIfMultipleKeyboards,
-      .showNever:
+        .showNever:
         break
       }
     }
@@ -496,7 +577,8 @@ open class InputViewController: UIInputViewController, KeymanWebDelegate {
       outerWidthConstraint!.isActive = true
       return
     }
-    outerWidthConstraint = self.inputView!.widthAnchor.constraint(equalTo: parent!.view.safeAreaLayoutGuide.widthAnchor)
+    outerWidthConstraint = self.inputView!.widthAnchor.constraint(
+      equalTo: parent!.view.safeAreaLayoutGuide.widthAnchor)
     outerWidthConstraint!.priority = UILayoutPriority(rawValue: 999)
     outerWidthConstraint!.isActive = true
   }
@@ -523,24 +605,233 @@ open class InputViewController: UIInputViewController, KeymanWebDelegate {
       customInputView.keyboardHeightChanged()
     }
   }
+  
+  open func keySenseRefreshKeyboardHeight() {
+
+      keyboardHeightChanged()
+
+      guard let customInputView = self.inputView as? CustomInputView else {
+          return
+      }
+
+      customInputView.invalidateIntrinsicContentSize()
+      customInputView.setNeedsUpdateConstraints()
+      customInputView.setNeedsLayout()
+
+      view.setNeedsUpdateConstraints()
+      view.setNeedsLayout()
+
+      customInputView.layoutIfNeeded()
+      view.layoutIfNeeded()
+  }
+  
+  open func keySenseIncreaseKeyboardHeight() {
+
+      let userDefaults = Storage.active.userDefaults
+      let increment = 10.0
+
+      if InputViewController.isPortrait {
+
+          userDefaults.portraitKeyboardHeight += increment
+
+      } else {
+
+          userDefaults.landscapeKeyboardHeight += increment
+      }
+
+  }
+  
+  open func keySenseFinalizeKeyboardLayout() {
+
+      keyboardHeightChanged()
+
+      inputView?.setNeedsLayout()
+      inputView?.layoutIfNeeded()
+
+      view.setNeedsLayout()
+      view.layoutIfNeeded()
+
+      keymanWeb.view.setNeedsLayout()
+      keymanWeb.view.layoutIfNeeded()
+
+      let updatedSize = keymanWeb.view.bounds.size
+
+      guard updatedSize.width > 0,
+            updatedSize.height > 0 else {
+          return
+      }
+
+      keymanWeb.keyboardSize = updatedSize
+      keymanWeb.resizeKeyboard()
+  }
+  
+  open func keySenseSetKeyboardHeight(
+      normalizedValue: Float
+  ) {
+
+      let isPortrait =
+          InputViewController.isPortrait
+
+      let defaultHeight =
+          KeyboardScaleMap
+              .getDeviceDefaultKeyboardScale(
+                  forPortrait: isPortrait
+              )?
+              .keyboardHeight
+          ?? Defaults.unknownDeviceKeyboardHeight
+
+      let minimumHeight: CGFloat = 100.0
+
+      let maximumHeight =
+          max(
+              minimumHeight,
+              UIScreen.main.bounds.height *  0.65
+          )
+
+      let clampedValue =
+          max(
+              0.0,
+              min(1.0, normalizedValue)
+          )
+
+      let selectedHeight =
+          minimumHeight +
+          CGFloat(clampedValue) *
+          (maximumHeight - minimumHeight)
+
+      let userDefaults =
+          Storage.active.userDefaults
+
+      if isPortrait {
+
+          userDefaults.portraitKeyboardHeight =
+              selectedHeight
+
+      } else {
+
+          userDefaults.landscapeKeyboardHeight =
+              selectedHeight
+      }
+  }
+  
+  open func keySenseCurrentKeyboardHeightNormalized() -> Float {
+
+      let isPortrait =
+          InputViewController.isPortrait
+
+      let defaultHeight =
+          KeyboardScaleMap
+              .getDeviceDefaultKeyboardScale(
+                  forPortrait: isPortrait
+              )?
+              .keyboardHeight
+          ?? Defaults.unknownDeviceKeyboardHeight
+
+      let minimumHeight: CGFloat = 100.0
+
+      let maximumHeight =
+          max(
+              minimumHeight,
+              UIScreen.main.bounds.height * 0.65
+          )
+
+      let userDefaults =
+          Storage.active.userDefaults
+
+      let currentHeight: CGFloat
+
+      if isPortrait {
+          currentHeight =
+              userDefaults.portraitKeyboardHeight
+      } else {
+          currentHeight =
+              userDefaults.landscapeKeyboardHeight
+      }
+
+      guard maximumHeight > minimumHeight else {
+          return 0.5
+      }
+
+      let normalized =
+          (currentHeight - minimumHeight) /
+          (maximumHeight - minimumHeight)
+
+      return Float(
+          max(
+              0.0,
+              min(1.0, normalized)
+          )
+      )
+  }
+  
+  open func keySenseDecreaseKeyboardHeight() {
+
+      let userDefaults = Storage.active.userDefaults
+      let decrement = 10.0
+      let minimumHeight = 100.0
+
+      if InputViewController.isPortrait {
+
+          userDefaults.portraitKeyboardHeight =
+              max(
+                  minimumHeight,
+                  userDefaults.portraitKeyboardHeight - decrement
+              )
+
+      } else {
+
+          userDefaults.landscapeKeyboardHeight =
+              max(
+                  minimumHeight,
+                  userDefaults.landscapeKeyboardHeight - decrement
+              )
+      }
+
+  }
+  
+  open func keySenseResetKeyboardHeight() {
+      let isPortrait = InputViewController.isPortrait
+
+      let defaultHeight =
+          KeyboardScaleMap
+              .getDeviceDefaultKeyboardScale(
+                  forPortrait: isPortrait
+              )?
+              .keyboardHeight
+          ?? Defaults.unknownDeviceKeyboardHeight
+
+      let userDefaults = Storage.active.userDefaults
+
+      if isPortrait {
+          userDefaults.portraitKeyboardHeight = defaultHeight
+      } else {
+          userDefaults.landscapeKeyboardHeight = defaultHeight
+      }
+
+  }
 
   func fixLayout() {
     view.setNeedsLayout()
     view.layoutIfNeeded()
   }
 
-  open override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+  open override func viewWillTransition(
+    to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator
+  ) {
     super.viewWillTransition(to: size, with: coordinator)
 
-    coordinator.animateAlongsideTransition(in: nil, animation: {
-      _ in
+    coordinator.animateAlongsideTransition(
+      in: nil,
+      animation: {
+        _ in
         self.updateViewConstraints()
         self.fixLayout()
-    }, completion: {
-      _ in
+      },
+      completion: {
+        _ in
         self.updateViewConstraints()
         self.fixLayout()
-    })
+      })
   }
 
   @objc func enableInputClickSound() {
@@ -624,7 +915,7 @@ open class InputViewController: UIInputViewController, KeymanWebDelegate {
     }
 
     var selRange = range
-    if(offsetPrefix) {
+    if offsetPrefix {
       selRange = NSRange(location: selRange.location - 1, length: selRange.length)
     }
 

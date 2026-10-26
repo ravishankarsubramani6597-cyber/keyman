@@ -138,15 +138,586 @@ function getOskHeight() {
 }
 
 var keyboardOffset = 0;
+
+function keySenseLayoutLog(message) {
+
+    if (typeof window.webkit !== 'undefined' &&
+        window.webkit.messageHandlers &&
+        window.webkit.messageHandlers.keyman) {
+
+        window.webkit.messageHandlers.keyman.postMessage(
+            'ios-log:#iOS#[KEYSENSE LAYOUT] ' + message
+        );
+    }
+}
+
+function keySenseSetInputModeSwitchKeyRequired(required) {
+
+    window.keySenseInputModeSwitchKeyRequired =
+        !!required;
+
+    keySenseInstallEmojiKey();
+}
+
+window.keySenseSetInputModeSwitchKeyRequired =
+    keySenseSetInputModeSwitchKeyRequired;
+
+function keySenseInstallEmojiKey() {
+
+    keySenseLayoutLog(
+        'install called'
+    );
+
+    var keyboard =
+        keyman &&
+        keyman.core &&
+        keyman.core.activeKeyboard;
+
+    if (!keyboard) {
+
+        keySenseLayoutLog(
+            'FAILED: no activeKeyboard'
+        );
+
+        return;
+    }
+
+    keySenseLayoutLog(
+        'active keyboard = ' +
+        (
+            keyboard.id ||
+            keyboard.keyboardName ||
+            'unknown'
+        )
+    );
+
+    var layouts =
+        keyboard._layouts;
+
+    if (!layouts) {
+
+        keySenseLayoutLog(
+            'FAILED: activeKeyboard has no _layouts'
+        );
+
+        return;
+    }
+
+    var formFactors =
+        Object.keys(layouts);
+
+    keySenseLayoutLog(
+        'form factors = ' +
+        formFactors.join(',')
+    );
+
+    var bottomRowCount = 0;
+    var insertionCount = 0;
+
+    formFactors.forEach(
+        function(formFactor) {
+
+            var layout =
+                layouts[formFactor];
+
+            if (!layout ||
+                !Array.isArray(layout.layer)) {
+
+                return;
+            }
+
+            layout.layer.forEach(
+                function(layer) {
+
+                    if (!Array.isArray(layer.row)) {
+                        return;
+                    }
+
+                    var bottomRow =
+                        layer.row.find(
+                            function(row) {
+
+                                if (!Array.isArray(row.key)) {
+                                    return false;
+                                }
+
+                                return row.key.some(
+                                    function(key) {
+                                        return key.id === 'K_SPACE';
+                                    }
+                                );
+                            }
+                        );
+
+                    if (!bottomRow) {
+
+                        keySenseLayoutLog(
+                            'no space row in layer ' +
+                            layer.id
+                        );
+
+                        return;
+                    }
+
+                    bottomRowCount += 1;
+                  
+                    var inputModeSwitchRequired =
+                        window.keySenseInputModeSwitchKeyRequired === true;
+
+                    if (!inputModeSwitchRequired) {
+
+                        var globeIndex =
+                            bottomRow.key.findIndex(
+                                function(key) {
+                                    return key.id === 'K_LOPT';
+                                }
+                            );
+
+                        if (globeIndex >= 0) {
+
+                            var globeKey =
+                                bottomRow.key[globeIndex];
+
+                            var globeWidth =
+                                parseFloat(
+                                    globeKey.width || '90'
+                                );
+
+                            bottomRow.key.splice(
+                                globeIndex,
+                                1
+                            );
+
+                            var spaceForGlobe =
+                                bottomRow.key.find(
+                                    function(key) {
+                                        return key.id === 'K_SPACE';
+                                    }
+                                );
+
+                            if (spaceForGlobe) {
+
+                                var currentSpaceWidth =
+                                    parseFloat(
+                                        spaceForGlobe.width || '520'
+                                    );
+
+                                spaceForGlobe.width =
+                                    String(
+                                        currentSpaceWidth +
+                                        globeWidth
+                                    );
+                            }
+
+                            insertionCount += 1;
+
+                            keySenseLayoutLog(
+                                'removed K_LOPT from layer ' +
+                                layer.id
+                            );
+                        }
+                    }
+
+                    var hasEmoji =
+                        bottomRow.key.some(
+                            function(key) {
+                                return key.id ===
+                                    'T_KEYSENSE_EMOJI';
+                            }
+                        );
+
+                    var hasSettings =
+                        bottomRow.key.some(
+                            function(key) {
+                                return key.id ===
+                                    'T_KEYSENSE_SETTINGS';
+                            }
+                        );
+
+                    if (hasEmoji && hasSettings) {
+
+                        keySenseLayoutLog(
+                            'controls already installed in layer ' +
+                            layer.id
+                        );
+
+                        return;
+                    }
+
+                    var spaceIndex =
+                        bottomRow.key.findIndex(
+                            function(key) {
+                                return key.id ===
+                                    'K_SPACE';
+                            }
+                        );
+
+                    if (spaceIndex < 0) {
+
+                        keySenseLayoutLog(
+                            'no K_SPACE in layer ' +
+                            layer.id
+                        );
+
+                        return;
+                    }
+
+                    var spaceKey =
+                        bottomRow.key[
+                            spaceIndex
+                        ];
+
+                    var oldWidth =
+                        parseFloat(
+                            spaceKey.width || '610'
+                        );
+
+                    var keysToInsert = [];
+
+                    if (!hasSettings) {
+
+                        keysToInsert.push({
+                            id:
+                                'T_KEYSENSE_SETTINGS',
+
+                            text:
+                                '⚙️',
+
+                            width:
+                                '90',
+
+                            sp:
+                                '1'
+                        });
+                    }
+
+                    if (!hasEmoji) {
+
+                        keysToInsert.push({
+                            id:
+                                'T_KEYSENSE_EMOJI',
+
+                            text:
+                                '😀',
+
+                            width:
+                                '90',
+
+                            sp:
+                                '1'
+                        });
+                    }
+
+                    spaceKey.width =
+                        String(
+                            Math.max(
+                                300,
+                                oldWidth -
+                                    (90 * keysToInsert.length)
+                            )
+                        );
+
+                    bottomRow.key.splice(
+                        spaceIndex,
+                        0,
+                        ...keysToInsert
+                    );
+
+                    insertionCount +=
+                        keysToInsert.length;
+
+                    keySenseLayoutLog(
+                        'inserted controls into layer ' +
+                        layer.id +
+                        ', space ' +
+                        oldWidth +
+                        ' -> ' +
+                        spaceKey.width
+                    );
+                }
+            );
+        }
+    );
+
+    keySenseLayoutLog(
+        'bottom rows = ' +
+        bottomRowCount +
+        ', insertions = ' +
+        insertionCount
+    );
+
+    if (insertionCount > 0) {
+
+        keyboard.refreshLayouts();
+
+        keySenseLayoutLog(
+            'osk exists = ' +
+            !!(keyman && keyman.osk) +
+            ', osk activeKeyboard exists = ' +
+            !!(keyman &&
+               keyman.osk &&
+               keyman.osk.activeKeyboard)
+        );
+
+        if (keyman.osk &&
+            keyman.osk.activeKeyboard) {
+
+            keySenseLayoutLog(
+                'rebuilding OSK after control insertion'
+            );
+
+            keyman.osk.activeKeyboard =
+                keyman.osk.activeKeyboard;
+        }
+    }
+}
+
+
 function setKeymanLanguage(stub) {
     var kmw = window.keyman;
 
     KeymanWeb.registerStub(stub);
 
     kmw.setActiveKeyboard(stub.KI, stub.KLC).then(function() {
-        keyman.refreshOskLayout();
+
+        keySenseInstallEmojiKey();
+
+        // KEYSENSE:
+        // Rebuild Keyman's internal touch-layout cache
+        // after modifying KVKL.
+        if (kmw.core &&
+            kmw.core.activeKeyboard &&
+            typeof kmw.core.activeKeyboard.refreshLayouts === 'function') {
+
+            kmw.core.activeKeyboard.refreshLayouts();
+        }
+
+        kmw.refreshOskLayout();
         doResetContext();
+        
+        setTimeout(
+            function() {
+
+                var found =
+                    document.documentElement
+                        .innerHTML
+                        .indexOf(
+                            'T_KEYSENSE_EMOJI'
+                        ) >= 0;
+
+                var kv =
+                    keyman &&
+                    keyman.osk &&
+                    keyman.osk.keyboardView;
+
+                if (kv && kv.element) {
+
+                    var rect =
+                        kv.element.getBoundingClientRect();
+
+                    var style =
+                        window.getComputedStyle(kv.element);
+
+                    keySenseLayoutLog(
+                        'keyboardView DOM: ' +
+                        'width=' + rect.width +
+                        ', height=' + rect.height +
+                        ', display=' + style.display +
+                        ', visibility=' + style.visibility +
+                        ', opacity=' + style.opacity
+                    );
+
+                } else {
+
+                    keySenseLayoutLog(
+                        'keyboardView DOM: MISSING'
+                    );
+                }
+              
+                var vk =
+                    keyman &&
+                    keyman.osk &&
+                    keyman.osk.keyboardView;
+
+                if (vk && vk.layerGroup) {
+
+                    var layerGroup =
+                        vk.layerGroup;
+
+                    var activeLayer =
+                        layerGroup.activeLayer;
+
+                    var groupRect =
+                        layerGroup.element.getBoundingClientRect();
+
+                    var activeRect =
+                        activeLayer && activeLayer.element
+                            ? activeLayer.element.getBoundingClientRect()
+                            : null;
+
+                    var keyCount =
+                        activeLayer && activeLayer.element
+                            ? activeLayer.element
+                                .querySelectorAll('.kmw-key').length
+                            : -1;
+
+                    keySenseLayoutLog(
+                        'layerGroup: active=' +
+                        layerGroup.activeLayerId +
+                        ', group=' +
+                        groupRect.width + 'x' +
+                        groupRect.height +
+                        ', activeExists=' +
+                        !!activeLayer +
+                        ', active=' +
+                        (activeRect
+                            ? activeRect.width + 'x' +
+                              activeRect.height
+                            : 'none') +
+                        ', keys=' +
+                        keyCount
+                    );
+
+                } else {
+
+                    keySenseLayoutLog(
+                        'layerGroup: MISSING'
+                    );
+                }
+              
+              if (activeLayer && activeLayer.element) {
+
+                  var firstKey =
+                      activeLayer.element.querySelector('.kmw-key');
+
+                  if (firstKey) {
+
+                      var keyRect =
+                          firstKey.getBoundingClientRect();
+
+                      var keyStyle =
+                          window.getComputedStyle(firstKey);
+
+                    keySenseLayoutLog(
+                        'first key: ' +
+                        'x=' + keyRect.x +
+                        ', y=' + keyRect.y +
+                        ', right=' + keyRect.right +
+                        ', bottom=' + keyRect.bottom +
+                        ', width=' + keyRect.width +
+                        ', height=' + keyRect.height +
+                        ', viewport=' +
+                        window.innerWidth + 'x' +
+                        window.innerHeight
+                    );
+
+                  } else {
+
+                      keySenseLayoutLog(
+                          'first key: MISSING'
+                      );
+                  }
+                
+                var centerX =
+                    keyRect.left + keyRect.width / 2;
+
+                var centerY =
+                    keyRect.top + keyRect.height / 2;
+
+                var topElement =
+                    document.elementFromPoint(
+                        centerX,
+                        centerY
+                    );
+
+                if (topElement) {
+
+                    var topStyle =
+                        window.getComputedStyle(topElement);
+
+                    keySenseLayoutLog(
+                        'element over first key: ' +
+                        'tag=' + topElement.tagName +
+                        ', id=' + (topElement.id || 'none') +
+                        ', class=' +
+                        (topElement.className || 'none') +
+                        ', zIndex=' +
+                        topStyle.zIndex +
+                        ', pointerEvents=' +
+                        topStyle.pointerEvents
+                    );
+
+                } else {
+
+                    keySenseLayoutLog(
+                        'element over first key: NONE'
+                    );
+                }
+                
+                var keyText =
+                    firstKey.querySelector('.kmw-key-text');
+
+                if (keyText) {
+
+                    var textRect =
+                        keyText.getBoundingClientRect();
+
+                    var textStyle =
+                        window.getComputedStyle(keyText);
+
+                    keySenseLayoutLog(
+                        'first key text: ' +
+                        'content="' +
+                        keyText.textContent +
+                        '"' +
+                        ', size=' +
+                        textRect.width + 'x' +
+                        textRect.height +
+                        ', color=' +
+                        textStyle.color +
+                        ', font=' +
+                        textStyle.fontFamily +
+                        ', fontSize=' +
+                        textStyle.fontSize
+                    );
+
+                } else {
+
+                    keySenseLayoutLog(
+                        'first key text: MISSING'
+                    );
+                }
+                var repaintTarget =
+                    keyman &&
+                    keyman.osk &&
+                    keyman.osk.keyboardView &&
+                    keyman.osk.keyboardView.element;
+
+                if (repaintTarget) {
+
+                    repaintTarget.style.webkitTransform =
+                        'translateZ(0)';
+
+                    repaintTarget.style.transform =
+                        'translateZ(0)';
+
+                    void repaintTarget.offsetHeight;
+
+                    keySenseLayoutLog(
+                        'forced keyboard repaint'
+                    );
+                }
+              }
+                
+                keySenseLayoutLog(
+                      'rendered DOM contains emoji key = ' +
+                      found
+                  );
+            },
+            100
+        );
     });
+  
 }
 
 function setHostAppName(name) {
@@ -161,6 +732,207 @@ var fragmentToggle = 0;
  * @param s   Text to insert
  * @param dr  Number of post-caret code points to delete.  (optional)
  */
+
+// -----------------------------------------------------------------------------
+// KEYSENSE
+// Converts a Keyman OSK key event into a privacy-preserving behavioural category.
+// No actual typed character is sent to Swift.
+// -----------------------------------------------------------------------------
+
+function keySenseClassifyKeyEvent(event) {
+    if (!event || !event.isSynthetic) {
+        return null;
+    }
+
+    const name = (event.kName || '').toUpperCase();
+
+    // Explicit typing-control keys.
+    if (name === 'K_BKSP') {
+        return 'backspace';
+    }
+
+    if (name === 'K_SPACE') {
+        return 'space';
+    }
+
+    if (name === 'K_ENTER') {
+        return 'newline';
+    }
+
+    // Ignore non-text control/layout keys.
+    const ignoredKeys = new Set([
+        'K_SHIFT',
+        'K_CAPS',
+        'K_CTRL',
+        'K_ALT',
+        'K_MENU',
+        'K_LCTRL',
+        'K_RCTRL',
+        'K_LALT',
+        'K_RALT'
+    ]);
+
+    if (ignoredKeys.has(name)) {
+        return null;
+    }
+
+    // Standard positional alphabet keys: K_A ... K_Z.
+    if (/^K_[A-Z]$/.test(name)) {
+        // Keyman's modifier flags use 0x10 for Shift.
+        const shiftActive = (event.Lmodifiers & 0x10) !== 0;
+
+        return shiftActive ? 'uppercase' : 'lowercase';
+    }
+
+    // Standard positional number keys: K_0 ... K_9.
+    if (/^K_[0-9]$/.test(name)) {
+        const shiftActive = (event.Lmodifiers & 0x10) !== 0;
+
+        // e.g. Shift+1 -> ! rather than numeric input.
+        return shiftActive ? 'special' : 'number';
+    }
+
+    // Word-internal punctuation.
+    if (name === 'K_QUOTE' || name === 'K_HYPHEN') {
+        return 'wordInternalSpecial';
+    }
+
+    // Unicode-key IDs used by many Keyman touch layouts:
+    // U_0061, U_0041, U_0031, U_0021, etc.
+    const unicodeMatch = /^U_([0-9A-F]{4,6})$/.exec(name);
+
+    if (unicodeMatch) {
+        const codePoint = parseInt(unicodeMatch[1], 16);
+
+        if (!Number.isFinite(codePoint)) {
+            return null;
+        }
+
+        const character = String.fromCodePoint(codePoint);
+
+        // Equivalent representations of our explicit control keys.
+        if (character === ' ') {
+            return 'space';
+        }
+
+        if (character === '\n' || character === '\r') {
+            return 'newline';
+        }
+
+        // Apostrophe / hyphen stay word-internal.
+        if (character === "'" ||
+            character === '\u2019' ||
+            character === '-') {
+            return 'wordInternalSpecial';
+        }
+
+        // Unicode-aware character classification.
+        if (/^\p{Ll}$/u.test(character)) {
+            return 'lowercase';
+        }
+
+        if (/^\p{Lu}$/u.test(character)) {
+            return 'uppercase';
+        }
+
+        if (/^\p{N}$/u.test(character)) {
+            return 'number';
+        }
+
+        return 'special';
+    }
+
+    // Known Keyman punctuation / symbol keys.
+    const specialKeys = new Set([
+        'K_COMMA',
+        'K_PERIOD',
+        'K_FULLSTOP',
+        'K_SEMICOLON',
+        'K_COLON',
+        'K_SLASH',
+        'K_BKSLASH',
+        'K_LBRKT',
+        'K_RBRKT',
+        'K_EQUAL',
+        'K_BKQUOTE'
+    ]);
+
+    if (specialKeys.has(name)) {
+        return 'special';
+    }
+
+    // Unknown/control keys should NOT be guessed as typing.
+    return null;
+}
+
+function keySenseSendKeyEvent(event) {
+    const name =
+        event && event.kName
+            ? event.kName.toUpperCase()
+            : '';
+
+    if (name === 'T_KEYSENSE_EMOJI') {
+
+        keySenseRequestEmojiPanel();
+
+        return true;
+    }
+  
+    if (name === 'T_KEYSENSE_SETTINGS') {
+
+        keySenseRequestSettingsPanel();
+
+        return true;
+    }
+  
+    const category = keySenseClassifyKeyEvent(event);
+
+    if (!category) {
+        return;
+    }
+
+    if (typeof window.webkit !== 'undefined' &&
+        window.webkit.messageHandlers &&
+        window.webkit.messageHandlers.keyman) {
+
+        window.webkit.messageHandlers.keyman.postMessage(
+            '#keysenseKey-' + category
+        );
+    }
+  return false;
+}
+window.keySenseSendKeyEvent = keySenseSendKeyEvent;
+
+function keySenseRequestSettingsPanel() {
+    if (typeof window.webkit !== 'undefined' &&
+        window.webkit.messageHandlers &&
+        window.webkit.messageHandlers.keyman) {
+
+        window.webkit.messageHandlers.keyman.postMessage(
+            '#keysenseShowSettings'
+        );
+    }
+}
+
+window.keySenseRequestSettingsPanel =
+    keySenseRequestSettingsPanel;
+
+function keySenseRequestEmojiPanel() {
+
+    if (typeof window.webkit !== 'undefined' &&
+        window.webkit.messageHandlers &&
+        window.webkit.messageHandlers.keyman) {
+
+        window.webkit.messageHandlers.keyman.postMessage(
+            '#keysenseShowEmoji'
+        );
+    }
+}
+
+window.keySenseRequestEmojiPanel =
+    keySenseRequestEmojiPanel;
+
+
 function insertText(dn, s, dr) {
     dr = dr || 0;  // Sets a default value of zero when dr is undefined
     fragmentToggle = (fragmentToggle + 1) % 100;

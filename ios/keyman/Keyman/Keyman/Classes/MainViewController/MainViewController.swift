@@ -501,11 +501,12 @@ class MainViewController: UIViewController, TextViewDelegate, UIActionSheetDeleg
     // Defer display of the keyboard until the current "message" on the main dispatch
     // queue is complete.  There are still ongoing calculations - including within the
     // keyboard's WebView itself!  (This function's call is actually triggered _by_ it!)
-    DispatchQueue.main.async {
-      if self.shouldKeyboardBeVisible {
-        self.textView.becomeFirstResponder()
-      }
+    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+        if self.shouldKeyboardBeVisible {
+            self.textView.becomeFirstResponder()
+        }
     }
+    
     if shouldShowGetStarted {
       perform(#selector(self.showGetStartedView), with: nil, afterDelay: 1.0)
     }
