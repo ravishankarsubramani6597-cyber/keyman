@@ -1,0 +1,9572 @@
+[
+  {
+    "value": "😀",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "😃",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "😄",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "😁",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "😆",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "😅",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "🤣",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "😂",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "🙂",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "🙃",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "🫠",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "😉",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "😊",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "😇",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling"
+  },
+  {
+    "value": "🥰",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-affection"
+  },
+  {
+    "value": "😍",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-affection"
+  },
+  {
+    "value": "🤩",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-affection"
+  },
+  {
+    "value": "😘",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-affection"
+  },
+  {
+    "value": "😗",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-affection"
+  },
+  {
+    "value": "☺️",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-affection"
+  },
+  {
+    "value": "😚",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-affection"
+  },
+  {
+    "value": "😙",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-affection"
+  },
+  {
+    "value": "🥲",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-affection"
+  },
+  {
+    "value": "😋",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-tongue"
+  },
+  {
+    "value": "😛",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-tongue"
+  },
+  {
+    "value": "😜",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-tongue"
+  },
+  {
+    "value": "🤪",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-tongue"
+  },
+  {
+    "value": "😝",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-tongue"
+  },
+  {
+    "value": "🤑",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-tongue"
+  },
+  {
+    "value": "🤗",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-hand"
+  },
+  {
+    "value": "🤭",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-hand"
+  },
+  {
+    "value": "🫢",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-hand"
+  },
+  {
+    "value": "🫣",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-hand"
+  },
+  {
+    "value": "🤫",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-hand"
+  },
+  {
+    "value": "🤔",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-hand"
+  },
+  {
+    "value": "🫡",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-hand"
+  },
+  {
+    "value": "🤐",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "🤨",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "😐",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "😑",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "😶",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "🫥",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "😶‍🌫️",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "😏",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "😒",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "🙄",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "😬",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "😮‍💨",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "🤥",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "🫨",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "🙂‍↔️",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "🙂‍↕️",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical"
+  },
+  {
+    "value": "😌",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-sleepy"
+  },
+  {
+    "value": "😔",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-sleepy"
+  },
+  {
+    "value": "😪",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-sleepy"
+  },
+  {
+    "value": "🤤",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-sleepy"
+  },
+  {
+    "value": "😴",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-sleepy"
+  },
+  {
+    "value": "🫩",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-sleepy"
+  },
+  {
+    "value": "😷",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell"
+  },
+  {
+    "value": "🤒",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell"
+  },
+  {
+    "value": "🤕",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell"
+  },
+  {
+    "value": "🤢",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell"
+  },
+  {
+    "value": "🤮",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell"
+  },
+  {
+    "value": "🤧",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell"
+  },
+  {
+    "value": "🥵",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell"
+  },
+  {
+    "value": "🥶",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell"
+  },
+  {
+    "value": "🥴",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell"
+  },
+  {
+    "value": "😵",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell"
+  },
+  {
+    "value": "😵‍💫",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell"
+  },
+  {
+    "value": "🤯",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell"
+  },
+  {
+    "value": "🤠",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-hat"
+  },
+  {
+    "value": "🥳",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-hat"
+  },
+  {
+    "value": "🥸",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-hat"
+  },
+  {
+    "value": "😎",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-glasses"
+  },
+  {
+    "value": "🤓",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-glasses"
+  },
+  {
+    "value": "🧐",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-glasses"
+  },
+  {
+    "value": "😕",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "🫤",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😟",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "🙁",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "☹️",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😮",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😯",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😲",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😳",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "🫪",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "🥺",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "🥹",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😦",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😧",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😨",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😰",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😥",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😢",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😭",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😱",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😖",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😣",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😞",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😓",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😩",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😫",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "🥱",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned"
+  },
+  {
+    "value": "😤",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-negative"
+  },
+  {
+    "value": "😡",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-negative"
+  },
+  {
+    "value": "😠",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-negative"
+  },
+  {
+    "value": "🤬",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-negative"
+  },
+  {
+    "value": "😈",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-negative"
+  },
+  {
+    "value": "👿",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-negative"
+  },
+  {
+    "value": "💀",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-negative"
+  },
+  {
+    "value": "☠️",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-negative"
+  },
+  {
+    "value": "💩",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume"
+  },
+  {
+    "value": "🤡",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume"
+  },
+  {
+    "value": "👹",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume"
+  },
+  {
+    "value": "👺",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume"
+  },
+  {
+    "value": "👻",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume"
+  },
+  {
+    "value": "👽",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume"
+  },
+  {
+    "value": "👾",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume"
+  },
+  {
+    "value": "🤖",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume"
+  },
+  {
+    "value": "😺",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face"
+  },
+  {
+    "value": "😸",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face"
+  },
+  {
+    "value": "😹",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face"
+  },
+  {
+    "value": "😻",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face"
+  },
+  {
+    "value": "😼",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face"
+  },
+  {
+    "value": "😽",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face"
+  },
+  {
+    "value": "🙀",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face"
+  },
+  {
+    "value": "😿",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face"
+  },
+  {
+    "value": "😾",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face"
+  },
+  {
+    "value": "🙈",
+    "group": "Smileys & Emotion",
+    "subgroup": "monkey-face"
+  },
+  {
+    "value": "🙉",
+    "group": "Smileys & Emotion",
+    "subgroup": "monkey-face"
+  },
+  {
+    "value": "🙊",
+    "group": "Smileys & Emotion",
+    "subgroup": "monkey-face"
+  },
+  {
+    "value": "💌",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💘",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💝",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💖",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💗",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💓",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💞",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💕",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💟",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "❣️",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💔",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "❤️‍🔥",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "❤️‍🩹",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "❤️",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "🩷",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "🧡",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💛",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💚",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💙",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "🩵",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💜",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "🤎",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "🖤",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "🩶",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "🤍",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart"
+  },
+  {
+    "value": "💋",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "💯",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "💢",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "🫯",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "💥",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "💫",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "💦",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "💨",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "🕳️",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "💬",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "👁️‍🗨️",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "🗨️",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "🗯️",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "💭",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "💤",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion"
+  },
+  {
+    "value": "👋",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open"
+  },
+  {
+    "value": "🤚",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open"
+  },
+  {
+    "value": "🖐️",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open"
+  },
+  {
+    "value": "✋",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open"
+  },
+  {
+    "value": "🖖",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open"
+  },
+  {
+    "value": "🫱",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open"
+  },
+  {
+    "value": "🫲",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open"
+  },
+  {
+    "value": "🫳",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open"
+  },
+  {
+    "value": "🫴",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open"
+  },
+  {
+    "value": "🫷",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open"
+  },
+  {
+    "value": "🫸",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open"
+  },
+  {
+    "value": "👌",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-partial"
+  },
+  {
+    "value": "🤌",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-partial"
+  },
+  {
+    "value": "🤏",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-partial"
+  },
+  {
+    "value": "✌️",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-partial"
+  },
+  {
+    "value": "🤞",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-partial"
+  },
+  {
+    "value": "🫰",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-partial"
+  },
+  {
+    "value": "🤟",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-partial"
+  },
+  {
+    "value": "🤘",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-partial"
+  },
+  {
+    "value": "🤙",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-partial"
+  },
+  {
+    "value": "👈",
+    "group": "People & Body",
+    "subgroup": "hand-single-finger"
+  },
+  {
+    "value": "👉",
+    "group": "People & Body",
+    "subgroup": "hand-single-finger"
+  },
+  {
+    "value": "👆",
+    "group": "People & Body",
+    "subgroup": "hand-single-finger"
+  },
+  {
+    "value": "🖕",
+    "group": "People & Body",
+    "subgroup": "hand-single-finger"
+  },
+  {
+    "value": "👇",
+    "group": "People & Body",
+    "subgroup": "hand-single-finger"
+  },
+  {
+    "value": "☝️",
+    "group": "People & Body",
+    "subgroup": "hand-single-finger"
+  },
+  {
+    "value": "🫵",
+    "group": "People & Body",
+    "subgroup": "hand-single-finger"
+  },
+  {
+    "value": "👍",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-closed"
+  },
+  {
+    "value": "👎",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-closed"
+  },
+  {
+    "value": "✊",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-closed"
+  },
+  {
+    "value": "👊",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-closed"
+  },
+  {
+    "value": "🤛",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-closed"
+  },
+  {
+    "value": "🤜",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-closed"
+  },
+  {
+    "value": "👏",
+    "group": "People & Body",
+    "subgroup": "hands"
+  },
+  {
+    "value": "🙌",
+    "group": "People & Body",
+    "subgroup": "hands"
+  },
+  {
+    "value": "🫶",
+    "group": "People & Body",
+    "subgroup": "hands"
+  },
+  {
+    "value": "👐",
+    "group": "People & Body",
+    "subgroup": "hands"
+  },
+  {
+    "value": "🤲",
+    "group": "People & Body",
+    "subgroup": "hands"
+  },
+  {
+    "value": "🤝",
+    "group": "People & Body",
+    "subgroup": "hands"
+  },
+  {
+    "value": "🙏",
+    "group": "People & Body",
+    "subgroup": "hands"
+  },
+  {
+    "value": "✍️",
+    "group": "People & Body",
+    "subgroup": "hand-prop"
+  },
+  {
+    "value": "💅",
+    "group": "People & Body",
+    "subgroup": "hand-prop"
+  },
+  {
+    "value": "🤳",
+    "group": "People & Body",
+    "subgroup": "hand-prop"
+  },
+  {
+    "value": "💪",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "🦾",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "🦿",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "🦵",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "🦶",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "👂",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "🦻",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "👃",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "🧠",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "🫀",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "🫁",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "🦷",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "🦴",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "👀",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "👁️",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "👅",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "👄",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "🫦",
+    "group": "People & Body",
+    "subgroup": "body-parts"
+  },
+  {
+    "value": "👶",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "🧒",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👦",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👧",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "🧑",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👱",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👨",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "🧔",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "🧔‍♂️",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "🧔‍♀️",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👨‍🦰",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👨‍🦱",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👨‍🦳",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👨‍🦲",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👩",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👩‍🦰",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "🧑‍🦰",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👩‍🦱",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "🧑‍🦱",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👩‍🦳",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "🧑‍🦳",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👩‍🦲",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "🧑‍🦲",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👱‍♀️",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👱‍♂️",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "🧓",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👴",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "👵",
+    "group": "People & Body",
+    "subgroup": "person"
+  },
+  {
+    "value": "🙍",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙍‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙍‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙎",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙎‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙎‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙅",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙅‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙅‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙆",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙆‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙆‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "💁",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "💁‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "💁‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙋",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙋‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙋‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🧏",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🧏‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🧏‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙇",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙇‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🙇‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🤦",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🤦‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🤦‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🤷",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🤷‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🤷‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-gesture"
+  },
+  {
+    "value": "🧑‍⚕️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍⚕️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍⚕️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍🎓",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍🎓",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍🎓",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍🏫",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍🏫",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍🏫",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍⚖️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍⚖️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍⚖️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍🌾",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍🌾",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍🌾",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍🍳",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍🍳",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍🍳",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍🔧",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍🔧",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍🔧",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍🏭",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍🏭",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍🏭",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍💼",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍💼",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍💼",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍🔬",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍🔬",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍🔬",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍💻",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍💻",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍💻",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍🎤",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍🎤",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍🎤",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍🎨",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍🎨",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍🎨",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍✈️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍✈️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍✈️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍🚀",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍🚀",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍🚀",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍🚒",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍🚒",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍🚒",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👮",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👮‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👮‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🕵️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🕵️‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🕵️‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "💂",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "💂‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "💂‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🥷",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👷",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👷‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👷‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🫅",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🤴",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👸",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👳",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👳‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👳‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👲",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧕",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🤵",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🤵‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🤵‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👰",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👰‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👰‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🤰",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🫃",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🫄",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🤱",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👩‍🍼",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👨‍🍼",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "🧑‍🍼",
+    "group": "People & Body",
+    "subgroup": "person-role"
+  },
+  {
+    "value": "👼",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🎅",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🤶",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧑‍🎄",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🦸",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🦸‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🦸‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🦹",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🦹‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🦹‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧙",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧙‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧙‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧚",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧚‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧚‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧛",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧛‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧛‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧜",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧜‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧜‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧝",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧝‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧝‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧞",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧞‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧞‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧟",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧟‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧟‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🧌",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "🫈",
+    "group": "People & Body",
+    "subgroup": "person-fantasy"
+  },
+  {
+    "value": "💆",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "💆‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "💆‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "💇",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "💇‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "💇‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🚶",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🚶‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🚶‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🚶‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🚶‍♀️‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🚶‍♂️‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧍",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧍‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧍‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧎",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧎‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧎‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧎‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧎‍♀️‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧎‍♂️‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧑‍🦯",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧑‍🦯‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👨‍🦯",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👨‍🦯‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👩‍🦯",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👩‍🦯‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧑‍🦼",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧑‍🦼‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👨‍🦼",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👨‍🦼‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👩‍🦼",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👩‍🦼‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧑‍🦽",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧑‍🦽‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👨‍🦽",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👨‍🦽‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👩‍🦽",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👩‍🦽‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🏃",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🏃‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🏃‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🏃‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🏃‍♀️‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🏃‍♂️‍➡️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧑‍🩰",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "💃",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🕺",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🕴️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👯",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👯‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "👯‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧖",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧖‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧖‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧗",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧗‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🧗‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-activity"
+  },
+  {
+    "value": "🤺",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏇",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "⛷️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏂",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏌️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏌️‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏌️‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏄",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏄‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏄‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🚣",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🚣‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🚣‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏊",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏊‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏊‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "⛹️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "⛹️‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "⛹️‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏋️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏋️‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🏋️‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🚴",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🚴‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🚴‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🚵",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🚵‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🚵‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤸",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤸‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤸‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤼",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤼‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤼‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤽",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤽‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤽‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤾",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤾‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤾‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤹",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤹‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🤹‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-sport"
+  },
+  {
+    "value": "🧘",
+    "group": "People & Body",
+    "subgroup": "person-resting"
+  },
+  {
+    "value": "🧘‍♂️",
+    "group": "People & Body",
+    "subgroup": "person-resting"
+  },
+  {
+    "value": "🧘‍♀️",
+    "group": "People & Body",
+    "subgroup": "person-resting"
+  },
+  {
+    "value": "🛀",
+    "group": "People & Body",
+    "subgroup": "person-resting"
+  },
+  {
+    "value": "🛌",
+    "group": "People & Body",
+    "subgroup": "person-resting"
+  },
+  {
+    "value": "🧑‍🤝‍🧑",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👭",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👫",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👬",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "💏",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍❤️‍💋‍👨",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍❤️‍💋‍👨",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍❤️‍💋‍👩",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "💑",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍❤️‍👨",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍❤️‍👨",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍❤️‍👩",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👩‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👩‍👧",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👩‍👧‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👩‍👦‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👩‍👧‍👧",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👨‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👨‍👧",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👨‍👧‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👨‍👦‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👨‍👧‍👧",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍👩‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍👩‍👧",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍👩‍👧‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍👩‍👦‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍👩‍👧‍👧",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👦‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👧",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👧‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👨‍👧‍👧",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍👦‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍👧",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍👧‍👦",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "👩‍👧‍👧",
+    "group": "People & Body",
+    "subgroup": "family"
+  },
+  {
+    "value": "🗣️",
+    "group": "People & Body",
+    "subgroup": "person-symbol"
+  },
+  {
+    "value": "👤",
+    "group": "People & Body",
+    "subgroup": "person-symbol"
+  },
+  {
+    "value": "👥",
+    "group": "People & Body",
+    "subgroup": "person-symbol"
+  },
+  {
+    "value": "🫂",
+    "group": "People & Body",
+    "subgroup": "person-symbol"
+  },
+  {
+    "value": "👪",
+    "group": "People & Body",
+    "subgroup": "person-symbol"
+  },
+  {
+    "value": "🧑‍🧑‍🧒",
+    "group": "People & Body",
+    "subgroup": "person-symbol"
+  },
+  {
+    "value": "🧑‍🧑‍🧒‍🧒",
+    "group": "People & Body",
+    "subgroup": "person-symbol"
+  },
+  {
+    "value": "🧑‍🧒",
+    "group": "People & Body",
+    "subgroup": "person-symbol"
+  },
+  {
+    "value": "🧑‍🧒‍🧒",
+    "group": "People & Body",
+    "subgroup": "person-symbol"
+  },
+  {
+    "value": "👣",
+    "group": "People & Body",
+    "subgroup": "person-symbol"
+  },
+  {
+    "value": "🫆",
+    "group": "People & Body",
+    "subgroup": "person-symbol"
+  },
+  {
+    "value": "🐵",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐒",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦍",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦧",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐶",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐕",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦮",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐕‍🦺",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐩",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐺",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦊",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦝",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐱",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐈",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐈‍⬛",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦁",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐯",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐅",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐆",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐴",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🫎",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🫏",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐎",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦄",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦓",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦌",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦬",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐮",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐂",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐃",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐄",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐷",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐖",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐗",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐽",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐏",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐑",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐐",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐪",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐫",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦙",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦒",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐘",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦣",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦏",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦛",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐭",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐁",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐀",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐹",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐰",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐇",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐿️",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦫",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦔",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦇",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐻",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐻‍❄️",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐨",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐼",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦥",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦦",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦨",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦘",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦡",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🐾",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal"
+  },
+  {
+    "value": "🦃",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🐔",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🐓",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🐣",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🐤",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🐥",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🐦",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🐧",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🕊️",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🦅",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🦆",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🦢",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🦉",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🦤",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🪶",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🦩",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🦚",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🦜",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🪽",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🐦‍⬛",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🪿",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🐦‍🔥",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird"
+  },
+  {
+    "value": "🐸",
+    "group": "Animals & Nature",
+    "subgroup": "animal-amphibian"
+  },
+  {
+    "value": "🐊",
+    "group": "Animals & Nature",
+    "subgroup": "animal-reptile"
+  },
+  {
+    "value": "🐢",
+    "group": "Animals & Nature",
+    "subgroup": "animal-reptile"
+  },
+  {
+    "value": "🦎",
+    "group": "Animals & Nature",
+    "subgroup": "animal-reptile"
+  },
+  {
+    "value": "🐍",
+    "group": "Animals & Nature",
+    "subgroup": "animal-reptile"
+  },
+  {
+    "value": "🐲",
+    "group": "Animals & Nature",
+    "subgroup": "animal-reptile"
+  },
+  {
+    "value": "🐉",
+    "group": "Animals & Nature",
+    "subgroup": "animal-reptile"
+  },
+  {
+    "value": "🦕",
+    "group": "Animals & Nature",
+    "subgroup": "animal-reptile"
+  },
+  {
+    "value": "🦖",
+    "group": "Animals & Nature",
+    "subgroup": "animal-reptile"
+  },
+  {
+    "value": "🐳",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🐋",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🐬",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🫍",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🦭",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🐟",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🐠",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🐡",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🦈",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🐙",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🐚",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🪸",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🪼",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🦀",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🦞",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🦐",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🦑",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🦪",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine"
+  },
+  {
+    "value": "🐌",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🦋",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🐛",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🐜",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🐝",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🪲",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🐞",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🦗",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🪳",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🕷️",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🕸️",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🦂",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🦟",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🪰",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🪱",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "🦠",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug"
+  },
+  {
+    "value": "💐",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower"
+  },
+  {
+    "value": "🌸",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower"
+  },
+  {
+    "value": "💮",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower"
+  },
+  {
+    "value": "🪷",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower"
+  },
+  {
+    "value": "🏵️",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower"
+  },
+  {
+    "value": "🌹",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower"
+  },
+  {
+    "value": "🥀",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower"
+  },
+  {
+    "value": "🌺",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower"
+  },
+  {
+    "value": "🌻",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower"
+  },
+  {
+    "value": "🌼",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower"
+  },
+  {
+    "value": "🌷",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower"
+  },
+  {
+    "value": "🪻",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower"
+  },
+  {
+    "value": "🌱",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🪴",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🌲",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🌳",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🌴",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🌵",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🌾",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🌿",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "☘️",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🍀",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🍁",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🍂",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🍃",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🪹",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🪺",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🍄",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🪾",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other"
+  },
+  {
+    "value": "🍇",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍈",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍉",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍊",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍋",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍋‍🟩",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍌",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍍",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🥭",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍎",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍏",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍐",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍑",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍒",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍓",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🫐",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🥝",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🍅",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🫒",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🥥",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit"
+  },
+  {
+    "value": "🥑",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🍆",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🥔",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🥕",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🌽",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🌶️",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🫑",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🥒",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🥬",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🥦",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🧄",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🧅",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🥜",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🫘",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🌰",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🫚",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🫛",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🍄‍🟫",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🫜",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable"
+  },
+  {
+    "value": "🍞",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥐",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥖",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🫓",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥨",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥯",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥞",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🧇",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🧀",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🍖",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🍗",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥩",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥓",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🍔",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🍟",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🍕",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🌭",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥪",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🌮",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🌯",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🫔",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥙",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🧆",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥚",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🍳",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥘",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🍲",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🫕",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥣",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥗",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🍿",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🧈",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🧂",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🥫",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared"
+  },
+  {
+    "value": "🍱",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🍘",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🍙",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🍚",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🍛",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🍜",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🍝",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🍠",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🍢",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🍣",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🍤",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🍥",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🥮",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🍡",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🥟",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🥠",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🥡",
+    "group": "Food & Drink",
+    "subgroup": "food-asian"
+  },
+  {
+    "value": "🍦",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🍧",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🍨",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🍩",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🍪",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🎂",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🍰",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🧁",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🥧",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🍫",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🍬",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🍭",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🍮",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🍯",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet"
+  },
+  {
+    "value": "🍼",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🥛",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "☕",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🫖",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🍵",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🍶",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🍾",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🍷",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🍸",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🍹",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🍺",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🍻",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🥂",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🥃",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🫗",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🥤",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🧋",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🧃",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🧉",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🧊",
+    "group": "Food & Drink",
+    "subgroup": "drink"
+  },
+  {
+    "value": "🥢",
+    "group": "Food & Drink",
+    "subgroup": "dishware"
+  },
+  {
+    "value": "🍽️",
+    "group": "Food & Drink",
+    "subgroup": "dishware"
+  },
+  {
+    "value": "🍴",
+    "group": "Food & Drink",
+    "subgroup": "dishware"
+  },
+  {
+    "value": "🥄",
+    "group": "Food & Drink",
+    "subgroup": "dishware"
+  },
+  {
+    "value": "🔪",
+    "group": "Food & Drink",
+    "subgroup": "dishware"
+  },
+  {
+    "value": "🫙",
+    "group": "Food & Drink",
+    "subgroup": "dishware"
+  },
+  {
+    "value": "🏺",
+    "group": "Food & Drink",
+    "subgroup": "dishware"
+  },
+  {
+    "value": "🌍",
+    "group": "Travel & Places",
+    "subgroup": "place-map"
+  },
+  {
+    "value": "🌎",
+    "group": "Travel & Places",
+    "subgroup": "place-map"
+  },
+  {
+    "value": "🌏",
+    "group": "Travel & Places",
+    "subgroup": "place-map"
+  },
+  {
+    "value": "🌐",
+    "group": "Travel & Places",
+    "subgroup": "place-map"
+  },
+  {
+    "value": "🗺️",
+    "group": "Travel & Places",
+    "subgroup": "place-map"
+  },
+  {
+    "value": "🗾",
+    "group": "Travel & Places",
+    "subgroup": "place-map"
+  },
+  {
+    "value": "🧭",
+    "group": "Travel & Places",
+    "subgroup": "place-map"
+  },
+  {
+    "value": "🏔️",
+    "group": "Travel & Places",
+    "subgroup": "place-geographic"
+  },
+  {
+    "value": "⛰️",
+    "group": "Travel & Places",
+    "subgroup": "place-geographic"
+  },
+  {
+    "value": "🛘",
+    "group": "Travel & Places",
+    "subgroup": "place-geographic"
+  },
+  {
+    "value": "🌋",
+    "group": "Travel & Places",
+    "subgroup": "place-geographic"
+  },
+  {
+    "value": "🗻",
+    "group": "Travel & Places",
+    "subgroup": "place-geographic"
+  },
+  {
+    "value": "🏕️",
+    "group": "Travel & Places",
+    "subgroup": "place-geographic"
+  },
+  {
+    "value": "🏖️",
+    "group": "Travel & Places",
+    "subgroup": "place-geographic"
+  },
+  {
+    "value": "🏜️",
+    "group": "Travel & Places",
+    "subgroup": "place-geographic"
+  },
+  {
+    "value": "🏝️",
+    "group": "Travel & Places",
+    "subgroup": "place-geographic"
+  },
+  {
+    "value": "🏞️",
+    "group": "Travel & Places",
+    "subgroup": "place-geographic"
+  },
+  {
+    "value": "🏟️",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏛️",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏗️",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🧱",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🪨",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🪵",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🛖",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏘️",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏚️",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏠",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏡",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏢",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏣",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏤",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏥",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏦",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏨",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏩",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏪",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏫",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏬",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏭",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏯",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🏰",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "💒",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🗼",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "🗽",
+    "group": "Travel & Places",
+    "subgroup": "place-building"
+  },
+  {
+    "value": "⛪",
+    "group": "Travel & Places",
+    "subgroup": "place-religious"
+  },
+  {
+    "value": "🕌",
+    "group": "Travel & Places",
+    "subgroup": "place-religious"
+  },
+  {
+    "value": "🛕",
+    "group": "Travel & Places",
+    "subgroup": "place-religious"
+  },
+  {
+    "value": "🕍",
+    "group": "Travel & Places",
+    "subgroup": "place-religious"
+  },
+  {
+    "value": "⛩️",
+    "group": "Travel & Places",
+    "subgroup": "place-religious"
+  },
+  {
+    "value": "🕋",
+    "group": "Travel & Places",
+    "subgroup": "place-religious"
+  },
+  {
+    "value": "⛲",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "⛺",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🌁",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🌃",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🏙️",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🌄",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🌅",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🌆",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🌇",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🌉",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "♨️",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🎠",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🛝",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🎡",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🎢",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "💈",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🎪",
+    "group": "Travel & Places",
+    "subgroup": "place-other"
+  },
+  {
+    "value": "🚂",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚃",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚄",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚅",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚆",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚇",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚈",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚉",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚊",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚝",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚞",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚋",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚌",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚍",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚎",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚐",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚑",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚒",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚓",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚔",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚕",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚖",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚗",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚘",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚙",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🛻",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚚",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚛",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚜",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🏎️",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🏍️",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🛵",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🦽",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🦼",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🛺",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚲",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🛴",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🛹",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🛼",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚏",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🛣️",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🛤️",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🛢️",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "⛽",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🛞",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚨",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚥",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚦",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🛑",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "🚧",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground"
+  },
+  {
+    "value": "⚓",
+    "group": "Travel & Places",
+    "subgroup": "transport-water"
+  },
+  {
+    "value": "🛟",
+    "group": "Travel & Places",
+    "subgroup": "transport-water"
+  },
+  {
+    "value": "⛵",
+    "group": "Travel & Places",
+    "subgroup": "transport-water"
+  },
+  {
+    "value": "🛶",
+    "group": "Travel & Places",
+    "subgroup": "transport-water"
+  },
+  {
+    "value": "🚤",
+    "group": "Travel & Places",
+    "subgroup": "transport-water"
+  },
+  {
+    "value": "🛳️",
+    "group": "Travel & Places",
+    "subgroup": "transport-water"
+  },
+  {
+    "value": "⛴️",
+    "group": "Travel & Places",
+    "subgroup": "transport-water"
+  },
+  {
+    "value": "🛥️",
+    "group": "Travel & Places",
+    "subgroup": "transport-water"
+  },
+  {
+    "value": "🚢",
+    "group": "Travel & Places",
+    "subgroup": "transport-water"
+  },
+  {
+    "value": "✈️",
+    "group": "Travel & Places",
+    "subgroup": "transport-air"
+  },
+  {
+    "value": "🛩️",
+    "group": "Travel & Places",
+    "subgroup": "transport-air"
+  },
+  {
+    "value": "🛫",
+    "group": "Travel & Places",
+    "subgroup": "transport-air"
+  },
+  {
+    "value": "🛬",
+    "group": "Travel & Places",
+    "subgroup": "transport-air"
+  },
+  {
+    "value": "🪂",
+    "group": "Travel & Places",
+    "subgroup": "transport-air"
+  },
+  {
+    "value": "💺",
+    "group": "Travel & Places",
+    "subgroup": "transport-air"
+  },
+  {
+    "value": "🚁",
+    "group": "Travel & Places",
+    "subgroup": "transport-air"
+  },
+  {
+    "value": "🚟",
+    "group": "Travel & Places",
+    "subgroup": "transport-air"
+  },
+  {
+    "value": "🚠",
+    "group": "Travel & Places",
+    "subgroup": "transport-air"
+  },
+  {
+    "value": "🚡",
+    "group": "Travel & Places",
+    "subgroup": "transport-air"
+  },
+  {
+    "value": "🛰️",
+    "group": "Travel & Places",
+    "subgroup": "transport-air"
+  },
+  {
+    "value": "🚀",
+    "group": "Travel & Places",
+    "subgroup": "transport-air"
+  },
+  {
+    "value": "🛸",
+    "group": "Travel & Places",
+    "subgroup": "transport-air"
+  },
+  {
+    "value": "🛎️",
+    "group": "Travel & Places",
+    "subgroup": "hotel"
+  },
+  {
+    "value": "🧳",
+    "group": "Travel & Places",
+    "subgroup": "hotel"
+  },
+  {
+    "value": "⌛",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "⏳",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "⌚",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "⏰",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "⏱️",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "⏲️",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕰️",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕛",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕧",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕐",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕜",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕑",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕝",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕒",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕞",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕓",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕟",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕔",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕠",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕕",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕡",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕖",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕢",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕗",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕣",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕘",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕤",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕙",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕥",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕚",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🕦",
+    "group": "Travel & Places",
+    "subgroup": "time"
+  },
+  {
+    "value": "🌑",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌒",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌓",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌔",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌕",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌖",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌗",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌘",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌙",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌚",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌛",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌜",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌡️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "☀️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌝",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌞",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🪐",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "⭐",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌟",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌠",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌌",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "☁️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "⛅",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "⛈️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌤️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌥️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌦️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌧️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌨️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌩️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌪️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌫️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌬️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌀",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌈",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌂",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "☂️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "☔",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "⛱️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "⚡",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "❄️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "☃️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "⛄",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "☄️",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🔥",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "💧",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🌊",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather"
+  },
+  {
+    "value": "🎃",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎄",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎆",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎇",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🧨",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "✨",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎈",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎉",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎊",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎋",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎍",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎎",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎏",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎐",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎑",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🧧",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎀",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎁",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎗️",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎟️",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎫",
+    "group": "Activities",
+    "subgroup": "event"
+  },
+  {
+    "value": "🎖️",
+    "group": "Activities",
+    "subgroup": "award-medal"
+  },
+  {
+    "value": "🏆",
+    "group": "Activities",
+    "subgroup": "award-medal"
+  },
+  {
+    "value": "🏅",
+    "group": "Activities",
+    "subgroup": "award-medal"
+  },
+  {
+    "value": "🥇",
+    "group": "Activities",
+    "subgroup": "award-medal"
+  },
+  {
+    "value": "🥈",
+    "group": "Activities",
+    "subgroup": "award-medal"
+  },
+  {
+    "value": "🥉",
+    "group": "Activities",
+    "subgroup": "award-medal"
+  },
+  {
+    "value": "⚽",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "⚾",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🥎",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🏀",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🏐",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🏈",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🏉",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🎾",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🥏",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🎳",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🏏",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🏑",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🏒",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🥍",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🏓",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🏸",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🥊",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🥋",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🥅",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "⛳",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "⛸️",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🎣",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🤿",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🎽",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🎿",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🛷",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🥌",
+    "group": "Activities",
+    "subgroup": "sport"
+  },
+  {
+    "value": "🎯",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🪀",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🪁",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🔫",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🎱",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🔮",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🪄",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🎮",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🕹️",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🎰",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🎲",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🧩",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🧸",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🪅",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🪩",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🪆",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "♠️",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "♥️",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "♦️",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "♣️",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "♟️",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🃏",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🀄",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🎴",
+    "group": "Activities",
+    "subgroup": "game"
+  },
+  {
+    "value": "🎭",
+    "group": "Activities",
+    "subgroup": "arts & crafts"
+  },
+  {
+    "value": "🖼️",
+    "group": "Activities",
+    "subgroup": "arts & crafts"
+  },
+  {
+    "value": "🎨",
+    "group": "Activities",
+    "subgroup": "arts & crafts"
+  },
+  {
+    "value": "🧵",
+    "group": "Activities",
+    "subgroup": "arts & crafts"
+  },
+  {
+    "value": "🪡",
+    "group": "Activities",
+    "subgroup": "arts & crafts"
+  },
+  {
+    "value": "🧶",
+    "group": "Activities",
+    "subgroup": "arts & crafts"
+  },
+  {
+    "value": "🪢",
+    "group": "Activities",
+    "subgroup": "arts & crafts"
+  },
+  {
+    "value": "👓",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🕶️",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🥽",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🥼",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🦺",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👔",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👕",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👖",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🧣",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🧤",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🧥",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🧦",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👗",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👘",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🥻",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🩱",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🩲",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🩳",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👙",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👚",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🪭",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👛",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👜",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👝",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🛍️",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🎒",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🩴",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👞",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👟",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🥾",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🥿",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👠",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👡",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🩰",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👢",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🪮",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👑",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "👒",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🎩",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🎓",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🧢",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🪖",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "⛑️",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "📿",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "💄",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "💍",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "💎",
+    "group": "Objects",
+    "subgroup": "clothing"
+  },
+  {
+    "value": "🔇",
+    "group": "Objects",
+    "subgroup": "sound"
+  },
+  {
+    "value": "🔈",
+    "group": "Objects",
+    "subgroup": "sound"
+  },
+  {
+    "value": "🔉",
+    "group": "Objects",
+    "subgroup": "sound"
+  },
+  {
+    "value": "🔊",
+    "group": "Objects",
+    "subgroup": "sound"
+  },
+  {
+    "value": "📢",
+    "group": "Objects",
+    "subgroup": "sound"
+  },
+  {
+    "value": "📣",
+    "group": "Objects",
+    "subgroup": "sound"
+  },
+  {
+    "value": "📯",
+    "group": "Objects",
+    "subgroup": "sound"
+  },
+  {
+    "value": "🔔",
+    "group": "Objects",
+    "subgroup": "sound"
+  },
+  {
+    "value": "🔕",
+    "group": "Objects",
+    "subgroup": "sound"
+  },
+  {
+    "value": "🎼",
+    "group": "Objects",
+    "subgroup": "music"
+  },
+  {
+    "value": "🎵",
+    "group": "Objects",
+    "subgroup": "music"
+  },
+  {
+    "value": "🎶",
+    "group": "Objects",
+    "subgroup": "music"
+  },
+  {
+    "value": "🎙️",
+    "group": "Objects",
+    "subgroup": "music"
+  },
+  {
+    "value": "🎚️",
+    "group": "Objects",
+    "subgroup": "music"
+  },
+  {
+    "value": "🎛️",
+    "group": "Objects",
+    "subgroup": "music"
+  },
+  {
+    "value": "🎤",
+    "group": "Objects",
+    "subgroup": "music"
+  },
+  {
+    "value": "🎧",
+    "group": "Objects",
+    "subgroup": "music"
+  },
+  {
+    "value": "📻",
+    "group": "Objects",
+    "subgroup": "music"
+  },
+  {
+    "value": "🎷",
+    "group": "Objects",
+    "subgroup": "musical-instrument"
+  },
+  {
+    "value": "🎺",
+    "group": "Objects",
+    "subgroup": "musical-instrument"
+  },
+  {
+    "value": "🪊",
+    "group": "Objects",
+    "subgroup": "musical-instrument"
+  },
+  {
+    "value": "🪗",
+    "group": "Objects",
+    "subgroup": "musical-instrument"
+  },
+  {
+    "value": "🎸",
+    "group": "Objects",
+    "subgroup": "musical-instrument"
+  },
+  {
+    "value": "🎹",
+    "group": "Objects",
+    "subgroup": "musical-instrument"
+  },
+  {
+    "value": "🎻",
+    "group": "Objects",
+    "subgroup": "musical-instrument"
+  },
+  {
+    "value": "🪕",
+    "group": "Objects",
+    "subgroup": "musical-instrument"
+  },
+  {
+    "value": "🥁",
+    "group": "Objects",
+    "subgroup": "musical-instrument"
+  },
+  {
+    "value": "🪘",
+    "group": "Objects",
+    "subgroup": "musical-instrument"
+  },
+  {
+    "value": "🪇",
+    "group": "Objects",
+    "subgroup": "musical-instrument"
+  },
+  {
+    "value": "🪈",
+    "group": "Objects",
+    "subgroup": "musical-instrument"
+  },
+  {
+    "value": "🪉",
+    "group": "Objects",
+    "subgroup": "musical-instrument"
+  },
+  {
+    "value": "📱",
+    "group": "Objects",
+    "subgroup": "phone"
+  },
+  {
+    "value": "📲",
+    "group": "Objects",
+    "subgroup": "phone"
+  },
+  {
+    "value": "☎️",
+    "group": "Objects",
+    "subgroup": "phone"
+  },
+  {
+    "value": "📞",
+    "group": "Objects",
+    "subgroup": "phone"
+  },
+  {
+    "value": "📟",
+    "group": "Objects",
+    "subgroup": "phone"
+  },
+  {
+    "value": "📠",
+    "group": "Objects",
+    "subgroup": "phone"
+  },
+  {
+    "value": "🔋",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "🪫",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "🔌",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "💻",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "🖥️",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "🖨️",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "⌨️",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "🖱️",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "🖲️",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "💽",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "💾",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "💿",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "📀",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "🧮",
+    "group": "Objects",
+    "subgroup": "computer"
+  },
+  {
+    "value": "🎥",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "🎞️",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "📽️",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "🎬",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "📺",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "📷",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "📸",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "📹",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "📼",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "🔍",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "🔎",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "🕯️",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "💡",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "🔦",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "🏮",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "🪔",
+    "group": "Objects",
+    "subgroup": "light & video"
+  },
+  {
+    "value": "📔",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "📕",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "📖",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "📗",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "📘",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "📙",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "📚",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "📓",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "📒",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "📃",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "📜",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "📄",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "📰",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "🗞️",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "📑",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "🔖",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "🏷️",
+    "group": "Objects",
+    "subgroup": "book-paper"
+  },
+  {
+    "value": "🪙",
+    "group": "Objects",
+    "subgroup": "money"
+  },
+  {
+    "value": "💰",
+    "group": "Objects",
+    "subgroup": "money"
+  },
+  {
+    "value": "🪎",
+    "group": "Objects",
+    "subgroup": "money"
+  },
+  {
+    "value": "💴",
+    "group": "Objects",
+    "subgroup": "money"
+  },
+  {
+    "value": "💵",
+    "group": "Objects",
+    "subgroup": "money"
+  },
+  {
+    "value": "💶",
+    "group": "Objects",
+    "subgroup": "money"
+  },
+  {
+    "value": "💷",
+    "group": "Objects",
+    "subgroup": "money"
+  },
+  {
+    "value": "💸",
+    "group": "Objects",
+    "subgroup": "money"
+  },
+  {
+    "value": "💳",
+    "group": "Objects",
+    "subgroup": "money"
+  },
+  {
+    "value": "🧾",
+    "group": "Objects",
+    "subgroup": "money"
+  },
+  {
+    "value": "💹",
+    "group": "Objects",
+    "subgroup": "money"
+  },
+  {
+    "value": "✉️",
+    "group": "Objects",
+    "subgroup": "mail"
+  },
+  {
+    "value": "📧",
+    "group": "Objects",
+    "subgroup": "mail"
+  },
+  {
+    "value": "📨",
+    "group": "Objects",
+    "subgroup": "mail"
+  },
+  {
+    "value": "📩",
+    "group": "Objects",
+    "subgroup": "mail"
+  },
+  {
+    "value": "📤",
+    "group": "Objects",
+    "subgroup": "mail"
+  },
+  {
+    "value": "📥",
+    "group": "Objects",
+    "subgroup": "mail"
+  },
+  {
+    "value": "📦",
+    "group": "Objects",
+    "subgroup": "mail"
+  },
+  {
+    "value": "📫",
+    "group": "Objects",
+    "subgroup": "mail"
+  },
+  {
+    "value": "📪",
+    "group": "Objects",
+    "subgroup": "mail"
+  },
+  {
+    "value": "📬",
+    "group": "Objects",
+    "subgroup": "mail"
+  },
+  {
+    "value": "📭",
+    "group": "Objects",
+    "subgroup": "mail"
+  },
+  {
+    "value": "📮",
+    "group": "Objects",
+    "subgroup": "mail"
+  },
+  {
+    "value": "🗳️",
+    "group": "Objects",
+    "subgroup": "mail"
+  },
+  {
+    "value": "✏️",
+    "group": "Objects",
+    "subgroup": "writing"
+  },
+  {
+    "value": "✒️",
+    "group": "Objects",
+    "subgroup": "writing"
+  },
+  {
+    "value": "🖋️",
+    "group": "Objects",
+    "subgroup": "writing"
+  },
+  {
+    "value": "🖊️",
+    "group": "Objects",
+    "subgroup": "writing"
+  },
+  {
+    "value": "🖌️",
+    "group": "Objects",
+    "subgroup": "writing"
+  },
+  {
+    "value": "🖍️",
+    "group": "Objects",
+    "subgroup": "writing"
+  },
+  {
+    "value": "📝",
+    "group": "Objects",
+    "subgroup": "writing"
+  },
+  {
+    "value": "💼",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📁",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📂",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "🗂️",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📅",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📆",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "🗒️",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "🗓️",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📇",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📈",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📉",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📊",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📋",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📌",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📍",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📎",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "🖇️",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📏",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "📐",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "✂️",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "🗃️",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "🗄️",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "🗑️",
+    "group": "Objects",
+    "subgroup": "office"
+  },
+  {
+    "value": "🔒",
+    "group": "Objects",
+    "subgroup": "lock"
+  },
+  {
+    "value": "🔓",
+    "group": "Objects",
+    "subgroup": "lock"
+  },
+  {
+    "value": "🔏",
+    "group": "Objects",
+    "subgroup": "lock"
+  },
+  {
+    "value": "🔐",
+    "group": "Objects",
+    "subgroup": "lock"
+  },
+  {
+    "value": "🔑",
+    "group": "Objects",
+    "subgroup": "lock"
+  },
+  {
+    "value": "🗝️",
+    "group": "Objects",
+    "subgroup": "lock"
+  },
+  {
+    "value": "🔨",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🪓",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "⛏️",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "⚒️",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🛠️",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🗡️",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "⚔️",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "💣",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🪃",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🏹",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🛡️",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🪚",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🔧",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🪛",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🔩",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "⚙️",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🗜️",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "⚖️",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🦯",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🔗",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "⛓️‍💥",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "⛓️",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🪝",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🧰",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🧲",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🪜",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "🪏",
+    "group": "Objects",
+    "subgroup": "tool"
+  },
+  {
+    "value": "⚗️",
+    "group": "Objects",
+    "subgroup": "science"
+  },
+  {
+    "value": "🧪",
+    "group": "Objects",
+    "subgroup": "science"
+  },
+  {
+    "value": "🧫",
+    "group": "Objects",
+    "subgroup": "science"
+  },
+  {
+    "value": "🧬",
+    "group": "Objects",
+    "subgroup": "science"
+  },
+  {
+    "value": "🔬",
+    "group": "Objects",
+    "subgroup": "science"
+  },
+  {
+    "value": "🔭",
+    "group": "Objects",
+    "subgroup": "science"
+  },
+  {
+    "value": "📡",
+    "group": "Objects",
+    "subgroup": "science"
+  },
+  {
+    "value": "💉",
+    "group": "Objects",
+    "subgroup": "medical"
+  },
+  {
+    "value": "🩸",
+    "group": "Objects",
+    "subgroup": "medical"
+  },
+  {
+    "value": "💊",
+    "group": "Objects",
+    "subgroup": "medical"
+  },
+  {
+    "value": "🩹",
+    "group": "Objects",
+    "subgroup": "medical"
+  },
+  {
+    "value": "🩼",
+    "group": "Objects",
+    "subgroup": "medical"
+  },
+  {
+    "value": "🩺",
+    "group": "Objects",
+    "subgroup": "medical"
+  },
+  {
+    "value": "🩻",
+    "group": "Objects",
+    "subgroup": "medical"
+  },
+  {
+    "value": "🚪",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🛗",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🪞",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🪟",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🛏️",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🛋️",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🪑",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🚽",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🪠",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🚿",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🛁",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🪤",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🪒",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🧴",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🧷",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🧹",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🧺",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🧻",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🪣",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🧼",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🫧",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🪥",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🧽",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🧯",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🛒",
+    "group": "Objects",
+    "subgroup": "household"
+  },
+  {
+    "value": "🚬",
+    "group": "Objects",
+    "subgroup": "other-object"
+  },
+  {
+    "value": "⚰️",
+    "group": "Objects",
+    "subgroup": "other-object"
+  },
+  {
+    "value": "🪦",
+    "group": "Objects",
+    "subgroup": "other-object"
+  },
+  {
+    "value": "⚱️",
+    "group": "Objects",
+    "subgroup": "other-object"
+  },
+  {
+    "value": "🧿",
+    "group": "Objects",
+    "subgroup": "other-object"
+  },
+  {
+    "value": "🪬",
+    "group": "Objects",
+    "subgroup": "other-object"
+  },
+  {
+    "value": "🗿",
+    "group": "Objects",
+    "subgroup": "other-object"
+  },
+  {
+    "value": "🪧",
+    "group": "Objects",
+    "subgroup": "other-object"
+  },
+  {
+    "value": "🪪",
+    "group": "Objects",
+    "subgroup": "other-object"
+  },
+  {
+    "value": "🏧",
+    "group": "Symbols",
+    "subgroup": "transport-sign"
+  },
+  {
+    "value": "🚮",
+    "group": "Symbols",
+    "subgroup": "transport-sign"
+  },
+  {
+    "value": "🚰",
+    "group": "Symbols",
+    "subgroup": "transport-sign"
+  },
+  {
+    "value": "♿",
+    "group": "Symbols",
+    "subgroup": "transport-sign"
+  },
+  {
+    "value": "🚹",
+    "group": "Symbols",
+    "subgroup": "transport-sign"
+  },
+  {
+    "value": "🚺",
+    "group": "Symbols",
+    "subgroup": "transport-sign"
+  },
+  {
+    "value": "🚻",
+    "group": "Symbols",
+    "subgroup": "transport-sign"
+  },
+  {
+    "value": "🚼",
+    "group": "Symbols",
+    "subgroup": "transport-sign"
+  },
+  {
+    "value": "🚾",
+    "group": "Symbols",
+    "subgroup": "transport-sign"
+  },
+  {
+    "value": "🛂",
+    "group": "Symbols",
+    "subgroup": "transport-sign"
+  },
+  {
+    "value": "🛃",
+    "group": "Symbols",
+    "subgroup": "transport-sign"
+  },
+  {
+    "value": "🛄",
+    "group": "Symbols",
+    "subgroup": "transport-sign"
+  },
+  {
+    "value": "🛅",
+    "group": "Symbols",
+    "subgroup": "transport-sign"
+  },
+  {
+    "value": "⚠️",
+    "group": "Symbols",
+    "subgroup": "warning"
+  },
+  {
+    "value": "🚸",
+    "group": "Symbols",
+    "subgroup": "warning"
+  },
+  {
+    "value": "⛔",
+    "group": "Symbols",
+    "subgroup": "warning"
+  },
+  {
+    "value": "🚫",
+    "group": "Symbols",
+    "subgroup": "warning"
+  },
+  {
+    "value": "🚳",
+    "group": "Symbols",
+    "subgroup": "warning"
+  },
+  {
+    "value": "🚭",
+    "group": "Symbols",
+    "subgroup": "warning"
+  },
+  {
+    "value": "🚯",
+    "group": "Symbols",
+    "subgroup": "warning"
+  },
+  {
+    "value": "🚱",
+    "group": "Symbols",
+    "subgroup": "warning"
+  },
+  {
+    "value": "🚷",
+    "group": "Symbols",
+    "subgroup": "warning"
+  },
+  {
+    "value": "📵",
+    "group": "Symbols",
+    "subgroup": "warning"
+  },
+  {
+    "value": "🔞",
+    "group": "Symbols",
+    "subgroup": "warning"
+  },
+  {
+    "value": "☢️",
+    "group": "Symbols",
+    "subgroup": "warning"
+  },
+  {
+    "value": "☣️",
+    "group": "Symbols",
+    "subgroup": "warning"
+  },
+  {
+    "value": "⬆️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "↗️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "➡️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "↘️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "⬇️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "↙️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "⬅️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "↖️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "↕️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "↔️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "↩️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "↪️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "⤴️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "⤵️",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "🔃",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "🔄",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "🔙",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "🔚",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "🔛",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "🔜",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "🔝",
+    "group": "Symbols",
+    "subgroup": "arrow"
+  },
+  {
+    "value": "🛐",
+    "group": "Symbols",
+    "subgroup": "religion"
+  },
+  {
+    "value": "⚛️",
+    "group": "Symbols",
+    "subgroup": "religion"
+  },
+  {
+    "value": "🕉️",
+    "group": "Symbols",
+    "subgroup": "religion"
+  },
+  {
+    "value": "✡️",
+    "group": "Symbols",
+    "subgroup": "religion"
+  },
+  {
+    "value": "☸️",
+    "group": "Symbols",
+    "subgroup": "religion"
+  },
+  {
+    "value": "☯️",
+    "group": "Symbols",
+    "subgroup": "religion"
+  },
+  {
+    "value": "✝️",
+    "group": "Symbols",
+    "subgroup": "religion"
+  },
+  {
+    "value": "☦️",
+    "group": "Symbols",
+    "subgroup": "religion"
+  },
+  {
+    "value": "☪️",
+    "group": "Symbols",
+    "subgroup": "religion"
+  },
+  {
+    "value": "☮️",
+    "group": "Symbols",
+    "subgroup": "religion"
+  },
+  {
+    "value": "🕎",
+    "group": "Symbols",
+    "subgroup": "religion"
+  },
+  {
+    "value": "🔯",
+    "group": "Symbols",
+    "subgroup": "religion"
+  },
+  {
+    "value": "🪯",
+    "group": "Symbols",
+    "subgroup": "religion"
+  },
+  {
+    "value": "♈",
+    "group": "Symbols",
+    "subgroup": "zodiac"
+  },
+  {
+    "value": "♉",
+    "group": "Symbols",
+    "subgroup": "zodiac"
+  },
+  {
+    "value": "♊",
+    "group": "Symbols",
+    "subgroup": "zodiac"
+  },
+  {
+    "value": "♋",
+    "group": "Symbols",
+    "subgroup": "zodiac"
+  },
+  {
+    "value": "♌",
+    "group": "Symbols",
+    "subgroup": "zodiac"
+  },
+  {
+    "value": "♍",
+    "group": "Symbols",
+    "subgroup": "zodiac"
+  },
+  {
+    "value": "♎",
+    "group": "Symbols",
+    "subgroup": "zodiac"
+  },
+  {
+    "value": "♏",
+    "group": "Symbols",
+    "subgroup": "zodiac"
+  },
+  {
+    "value": "♐",
+    "group": "Symbols",
+    "subgroup": "zodiac"
+  },
+  {
+    "value": "♑",
+    "group": "Symbols",
+    "subgroup": "zodiac"
+  },
+  {
+    "value": "♒",
+    "group": "Symbols",
+    "subgroup": "zodiac"
+  },
+  {
+    "value": "♓",
+    "group": "Symbols",
+    "subgroup": "zodiac"
+  },
+  {
+    "value": "⛎",
+    "group": "Symbols",
+    "subgroup": "zodiac"
+  },
+  {
+    "value": "🔀",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "🔁",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "🔂",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "▶️",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "⏩",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "⏭️",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "⏯️",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "◀️",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "⏪",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "⏮️",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "🔼",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "⏫",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "🔽",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "⏬",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "⏸️",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "⏹️",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "⏺️",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "⏏️",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "🎦",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "🔅",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "🔆",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "📶",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "🛜",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "📳",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "📴",
+    "group": "Symbols",
+    "subgroup": "av-symbol"
+  },
+  {
+    "value": "♀️",
+    "group": "Symbols",
+    "subgroup": "gender"
+  },
+  {
+    "value": "♂️",
+    "group": "Symbols",
+    "subgroup": "gender"
+  },
+  {
+    "value": "⚧️",
+    "group": "Symbols",
+    "subgroup": "gender"
+  },
+  {
+    "value": "✖️",
+    "group": "Symbols",
+    "subgroup": "math"
+  },
+  {
+    "value": "➕",
+    "group": "Symbols",
+    "subgroup": "math"
+  },
+  {
+    "value": "➖",
+    "group": "Symbols",
+    "subgroup": "math"
+  },
+  {
+    "value": "➗",
+    "group": "Symbols",
+    "subgroup": "math"
+  },
+  {
+    "value": "🟰",
+    "group": "Symbols",
+    "subgroup": "math"
+  },
+  {
+    "value": "♾️",
+    "group": "Symbols",
+    "subgroup": "math"
+  },
+  {
+    "value": "‼️",
+    "group": "Symbols",
+    "subgroup": "punctuation"
+  },
+  {
+    "value": "⁉️",
+    "group": "Symbols",
+    "subgroup": "punctuation"
+  },
+  {
+    "value": "❓",
+    "group": "Symbols",
+    "subgroup": "punctuation"
+  },
+  {
+    "value": "❔",
+    "group": "Symbols",
+    "subgroup": "punctuation"
+  },
+  {
+    "value": "❕",
+    "group": "Symbols",
+    "subgroup": "punctuation"
+  },
+  {
+    "value": "❗",
+    "group": "Symbols",
+    "subgroup": "punctuation"
+  },
+  {
+    "value": "〰️",
+    "group": "Symbols",
+    "subgroup": "punctuation"
+  },
+  {
+    "value": "💱",
+    "group": "Symbols",
+    "subgroup": "currency"
+  },
+  {
+    "value": "💲",
+    "group": "Symbols",
+    "subgroup": "currency"
+  },
+  {
+    "value": "⚕️",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "♻️",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "⚜️",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "🔱",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "📛",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "🔰",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "⭕",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "✅",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "☑️",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "✔️",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "❌",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "❎",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "➰",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "➿",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "〽️",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "✳️",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "✴️",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "❇️",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "©️",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "®️",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "™️",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "🫟",
+    "group": "Symbols",
+    "subgroup": "other-symbol"
+  },
+  {
+    "value": "#️⃣",
+    "group": "Symbols",
+    "subgroup": "keycap"
+  },
+  {
+    "value": "*️⃣",
+    "group": "Symbols",
+    "subgroup": "keycap"
+  },
+  {
+    "value": "0️⃣",
+    "group": "Symbols",
+    "subgroup": "keycap"
+  },
+  {
+    "value": "1️⃣",
+    "group": "Symbols",
+    "subgroup": "keycap"
+  },
+  {
+    "value": "2️⃣",
+    "group": "Symbols",
+    "subgroup": "keycap"
+  },
+  {
+    "value": "3️⃣",
+    "group": "Symbols",
+    "subgroup": "keycap"
+  },
+  {
+    "value": "4️⃣",
+    "group": "Symbols",
+    "subgroup": "keycap"
+  },
+  {
+    "value": "5️⃣",
+    "group": "Symbols",
+    "subgroup": "keycap"
+  },
+  {
+    "value": "6️⃣",
+    "group": "Symbols",
+    "subgroup": "keycap"
+  },
+  {
+    "value": "7️⃣",
+    "group": "Symbols",
+    "subgroup": "keycap"
+  },
+  {
+    "value": "8️⃣",
+    "group": "Symbols",
+    "subgroup": "keycap"
+  },
+  {
+    "value": "9️⃣",
+    "group": "Symbols",
+    "subgroup": "keycap"
+  },
+  {
+    "value": "🔟",
+    "group": "Symbols",
+    "subgroup": "keycap"
+  },
+  {
+    "value": "🔠",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🔡",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🔢",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🔣",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🔤",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🅰️",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🆎",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🅱️",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🆑",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🆒",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🆓",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "ℹ️",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🆔",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "Ⓜ️",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🆕",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🆖",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🅾️",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🆗",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🅿️",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🆘",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🆙",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🆚",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🈁",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🈂️",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🈷️",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🈶",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🈯",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🉐",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🈹",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🈚",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🈲",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🉑",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🈸",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🈴",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🈳",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "㊗️",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "㊙️",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🈺",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🈵",
+    "group": "Symbols",
+    "subgroup": "alphanum"
+  },
+  {
+    "value": "🔴",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🟠",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🟡",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🟢",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🔵",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🟣",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🟤",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "⚫",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "⚪",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🟥",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🟧",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🟨",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🟩",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🟦",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🟪",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🟫",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "⬛",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "⬜",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "◼️",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "◻️",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "◾",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "◽",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "▪️",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "▫️",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🔶",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🔷",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🔸",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🔹",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🔺",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🔻",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "💠",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🔘",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🔳",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🔲",
+    "group": "Symbols",
+    "subgroup": "geometric"
+  },
+  {
+    "value": "🏁",
+    "group": "Flags",
+    "subgroup": "flag"
+  },
+  {
+    "value": "🚩",
+    "group": "Flags",
+    "subgroup": "flag"
+  },
+  {
+    "value": "🎌",
+    "group": "Flags",
+    "subgroup": "flag"
+  },
+  {
+    "value": "🏴",
+    "group": "Flags",
+    "subgroup": "flag"
+  },
+  {
+    "value": "🏳️",
+    "group": "Flags",
+    "subgroup": "flag"
+  },
+  {
+    "value": "🏳️‍🌈",
+    "group": "Flags",
+    "subgroup": "flag"
+  },
+  {
+    "value": "🏳️‍⚧️",
+    "group": "Flags",
+    "subgroup": "flag"
+  },
+  {
+    "value": "🏴‍☠️",
+    "group": "Flags",
+    "subgroup": "flag"
+  },
+  {
+    "value": "🇦🇨",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇩",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇫",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇮",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇱",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇴",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇶",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇸",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇹",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇺",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇼",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇽",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇦🇿",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇧",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇩",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇫",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇭",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇮",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇯",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇱",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇳",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇴",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇶",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇸",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇹",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇻",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇼",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇾",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇧🇿",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇨",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇩",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇫",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇭",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇮",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇰",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇱",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇳",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇴",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇵",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇶",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇺",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇻",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇼",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇽",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇾",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇨🇿",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇩🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇩🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇩🇯",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇩🇰",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇩🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇩🇴",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇩🇿",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇪🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇪🇨",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇪🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇪🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇪🇭",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇪🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇪🇸",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇪🇹",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇪🇺",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇫🇮",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇫🇯",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇫🇰",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇫🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇫🇴",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇫🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇧",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇩",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇫",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇭",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇮",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇱",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇳",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇵",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇶",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇸",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇹",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇺",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇼",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇬🇾",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇭🇰",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇭🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇭🇳",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇭🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇭🇹",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇭🇺",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇮🇨",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇮🇩",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇮🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇮🇱",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇮🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇮🇳",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇮🇴",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇮🇶",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇮🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇮🇸",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇮🇹",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇯🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇯🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇯🇴",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇯🇵",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇰🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇰🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇰🇭",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇰🇮",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇰🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇰🇳",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇰🇵",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇰🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇰🇼",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇰🇾",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇰🇿",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇱🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇱🇧",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇱🇨",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇱🇮",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇱🇰",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇱🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇱🇸",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇱🇹",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇱🇺",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇱🇻",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇱🇾",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇨",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇩",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇫",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇭",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇰",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇱",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇳",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇴",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇵",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇶",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇸",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇹",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇺",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇻",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇼",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇽",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇾",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇲🇿",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇳🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇳🇨",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇳🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇳🇫",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇳🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇳🇮",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇳🇱",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇳🇴",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇳🇵",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇳🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇳🇺",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇳🇿",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇴🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇫",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇭",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇰",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇱",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇳",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇸",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇹",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇼",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇵🇾",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇶🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇷🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇷🇴",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇷🇸",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇷🇺",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇷🇼",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇧",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇨",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇩",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇭",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇮",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇯",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇰",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇱",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇳",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇴",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇸",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇹",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇻",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇽",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇾",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇸🇿",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇨",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇩",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇫",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇭",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇯",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇰",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇱",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇳",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇴",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇷",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇹",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇻",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇼",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇹🇿",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇺🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇺🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇺🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇺🇳",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇺🇸",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇺🇾",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇺🇿",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇻🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇻🇨",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇻🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇻🇬",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇻🇮",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇻🇳",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇻🇺",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇼🇫",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇼🇸",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇽🇰",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇾🇪",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇾🇹",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇿🇦",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇿🇲",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🇿🇼",
+    "group": "Flags",
+    "subgroup": "country-flag"
+  },
+  {
+    "value": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "group": "Flags",
+    "subgroup": "subdivision-flag"
+  },
+  {
+    "value": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "group": "Flags",
+    "subgroup": "subdivision-flag"
+  },
+  {
+    "value": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    "group": "Flags",
+    "subgroup": "subdivision-flag"
+  }
+]

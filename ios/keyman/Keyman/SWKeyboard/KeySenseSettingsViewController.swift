@@ -16,6 +16,7 @@ final class KeySenseSettingsViewController: UIViewController {
     var onHeightSliderChanged: ((Float) -> Void)?
     var onResetHeightRequested: (() -> Void)?
     var onAppearanceChanged: ((KeySenseAppearanceMode) -> Void)?
+    var onTypingAssistanceChanged: ((KeySenseTypingAssistanceMode) -> Void)?
 
 
     // MARK: - Header
@@ -288,6 +289,10 @@ final class KeySenseSettingsViewController: UIViewController {
     }()
 
 
+    // MARK: - Typing Assistance
+
+    private let typingAssistanceSection = KeySenseTypingAssistanceSection()
+
     // MARK: - Public UI Updates
 
     func setHeightSliderValue(_ value: Float) {
@@ -315,6 +320,10 @@ final class KeySenseSettingsViewController: UIViewController {
         }
     }
 
+
+    func setTypingAssistanceMode(_ mode: KeySenseTypingAssistanceMode) {
+        typingAssistanceSection.setMode(mode)
+    }
 
     // MARK: - Lifecycle
 
@@ -377,6 +386,10 @@ final class KeySenseSettingsViewController: UIViewController {
             action: #selector(appearanceChanged),
             for: .valueChanged
         )
+
+        typingAssistanceSection.onModeChanged = { [weak self] mode in
+            self?.onTypingAssistanceChanged?(mode)
+        }
     }
 
     private func configureHierarchy() {
@@ -391,6 +404,7 @@ final class KeySenseSettingsViewController: UIViewController {
 
         contentView.addSubview(heightCard)
         contentView.addSubview(appearanceCard)
+        contentView.addSubview(typingAssistanceSection)
 
         heightCard.addSubview(heightLabel)
         heightCard.addSubview(heightHintLabel)
@@ -628,10 +642,6 @@ final class KeySenseSettingsViewController: UIViewController {
                 constant: -12
             ),
 
-            appearanceCard.bottomAnchor.constraint(
-                equalTo: contentView.bottomAnchor,
-                constant: -12
-            ),
 
             appearanceLabel.topAnchor.constraint(
                 equalTo: appearanceCard.topAnchor,
@@ -683,6 +693,27 @@ final class KeySenseSettingsViewController: UIViewController {
             appearanceControl.bottomAnchor.constraint(
                 equalTo: appearanceCard.bottomAnchor,
                 constant: -14
+            ),
+
+            // Typing Assistance — scrollable beneath Appearance
+            typingAssistanceSection.topAnchor.constraint(
+                equalTo: appearanceCard.bottomAnchor,
+                constant: 12
+            ),
+
+            typingAssistanceSection.leadingAnchor.constraint(
+                equalTo: contentView.leadingAnchor,
+                constant: 12
+            ),
+
+            typingAssistanceSection.trailingAnchor.constraint(
+                equalTo: contentView.trailingAnchor,
+                constant: -12
+            ),
+
+            typingAssistanceSection.bottomAnchor.constraint(
+                equalTo: contentView.bottomAnchor,
+                constant: -12
             )
         ])
     }

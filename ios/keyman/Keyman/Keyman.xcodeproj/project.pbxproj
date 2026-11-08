@@ -159,6 +159,8 @@
 		DF18A869307C2F7500E10961 /* EmojiCatalog.json in Resources */ = {isa = PBXBuildFile; fileRef = DF18A867307C2F7500E10961 /* EmojiCatalog.json */; };
 		DF18A86B307C4A9E00E10961 /* KeySenseEmojiCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18A86A307C4A8B00E10961 /* KeySenseEmojiCompatibility.swift */; };
 		DF18A86C307C4A9E00E10961 /* KeySenseEmojiCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18A86A307C4A8B00E10961 /* KeySenseEmojiCompatibility.swift */; };
+		DF51846230A034DF00F107CB /* KeySenseTypingAssistanceSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51846130A034DF00F107CB /* KeySenseTypingAssistanceSection.swift */; };
+		DF51846330A034DF00F107CB /* KeySenseTypingAssistanceSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51846130A034DF00F107CB /* KeySenseTypingAssistanceSection.swift */; };
 		DF752D5530788983000AEDC2 /* KeySenseEmojiHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF752D5430788975000AEDC2 /* KeySenseEmojiHistory.swift */; };
 		DF752D5630788983000AEDC2 /* KeySenseEmojiHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF752D5430788975000AEDC2 /* KeySenseEmojiHistory.swift */; };
 		DFCD6D1A308AC87C00C702C0 /* KeySenseSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD6D17308AC87400C702C0 /* KeySenseSettingsViewController.swift */; };
@@ -360,6 +362,7 @@
 		DF0222C03088A5FF0072A032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DF18A867307C2F7500E10961 /* EmojiCatalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EmojiCatalog.json; sourceTree = "<group>"; };
 		DF18A86A307C4A8B00E10961 /* KeySenseEmojiCompatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySenseEmojiCompatibility.swift; sourceTree = "<group>"; };
+		DF51846130A034DF00F107CB /* KeySenseTypingAssistanceSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySenseTypingAssistanceSection.swift; sourceTree = "<group>"; };
 		DF752D5430788975000AEDC2 /* KeySenseEmojiHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySenseEmojiHistory.swift; sourceTree = "<group>"; };
 		DFCD6D17308AC87400C702C0 /* KeySenseSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySenseSettingsViewController.swift; sourceTree = "<group>"; };
 		DFCD6D1F308AF58700C702C0 /* KeySenseAppearanceSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySenseAppearanceSettings.swift; sourceTree = "<group>"; };
@@ -665,6 +668,7 @@
 		98CD125D19CA85710089385F /* SWKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				DF51846130A034DF00F107CB /* KeySenseTypingAssistanceSection.swift */,
 				DFCD6D1F308AF58700C702C0 /* KeySenseAppearanceSettings.swift */,
 				DFCD6D17308AC87400C702C0 /* KeySenseSettingsViewController.swift */,
 				DFF8CBB03075EFC900537FBF /* Emoji */,
@@ -1089,6 +1093,7 @@
 				CE7FF1F0239A0293007859D9 /* PackageBrowserViewController.swift in Sources */,
 				C0E943F81F61234C00E7D98C /* UIImage+Helpers.swift in Sources */,
 				C0E943FE1F61377900E7D98C /* MainViewController.swift in Sources */,
+				DF51846330A034DF00F107CB /* KeySenseTypingAssistanceSection.swift in Sources */,
 				CEF4E55923E967140065B9C7 /* ImageBannerViewController.swift in Sources */,
 				162E2C9920926C8600F40769 /* UIView+Extensions.swift in Sources */,
 				162E2C9B20926C9B00F40769 /* KMNavigationBarBackgroundView.swift in Sources */,
@@ -1119,6 +1124,7 @@
 				CEF4E55A23E967140065B9C7 /* ImageBannerViewController.swift in Sources */,
 				DFF8CBB93075F49100537FBF /* KeySenseEmojiPanelViewController.swift in Sources */,
 				29B30C212B56325D00C342A4 /* KeymanLogger.swift in Sources */,
+				DF51846230A034DF00F107CB /* KeySenseTypingAssistanceSection.swift in Sources */,
 				DFF8CBB23075EFE700537FBF /* KeySenseEmojiCatalog.swift in Sources */,
 				DFCD6D21308AF58A00C702C0 /* KeySenseAppearanceSettings.swift in Sources */,
 				C0FF769B1F5D368C00BD23C3 /* KeyboardViewController.swift in Sources */,

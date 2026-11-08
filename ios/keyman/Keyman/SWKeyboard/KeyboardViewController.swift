@@ -15,13 +15,13 @@ class KeyboardViewController: InputViewController {
   var topBarImageSource: ImageBannerViewController!
   private let keySenseEmojiCatalog = KeySenseEmojiCatalog()
   private let keySenseEmojiHistory = KeySenseEmojiHistory()
-  
+
   private var keySenseEmojiPanel: KeySenseEmojiPanelViewController?
   private var isKeySenseEmojiPanelVisible = false
-  
+
   private var keySenseSettingsPanel: KeySenseSettingsViewController?
   private var isKeySenseSettingsPanelVisible = false
-  
+
   // MARK: - KEYSENSE
 
   /// Temporary repository used while validating KEYSENSE collection.
@@ -48,7 +48,7 @@ class KeyboardViewController: InputViewController {
         }
     )
   }()
-  
+
   private func formattedLocalTimestamp(
       utcMs: Int64,
       timezoneOffsetMinutes: Int64
@@ -66,7 +66,7 @@ class KeyboardViewController: InputViewController {
 
       return formatter.string(from: date)
   }
-  
+
   private func currentKeySenseOrientation() -> KeySenseOrientation {
       guard let orientation =
           view.window?.windowScene?.interfaceOrientation
@@ -108,7 +108,7 @@ class KeyboardViewController: InputViewController {
       view.setNeedsLayout()
       view.layoutIfNeeded()
   }
-  
+
   // The entrypoint for the app-extension.
   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
     // Only true if it's the first init of the class under app-extension mode.
@@ -142,17 +142,17 @@ class KeyboardViewController: InputViewController {
 
   override func viewDidAppear(_ animated: Bool) {
       super.viewDidAppear(animated)
-    
+
       keySenseUpdateInputModeSwitchKeyRequirement()
     Manager.shared.spacebarText = .BLANK
   }
-  
+
   override func viewDidDisappear(_ animated: Bool) {
     keySenseManager.keyboardDismissed()
 
     super.viewDidDisappear(animated)
   }
-  
+
   //MARK: Keysense EMOJI KEYBOARD..
   private func setupKeySenseEmojiInterface() {
 
@@ -179,9 +179,9 @@ class KeyboardViewController: InputViewController {
       panel.onEmojiSelected = { [weak self] emoji in
           UIDevice.current.playInputClick()
           self?.keySenseTestEmoji(emoji)
-        
+
       }
-    
+
       panel.onABCRequested = { [weak self] in
 
           guard let self = self else {
@@ -192,13 +192,13 @@ class KeyboardViewController: InputViewController {
               self.toggleKeySenseEmojiPanel()
           }
       }
-    
+
       panel.onSpaceRequested = { [weak self] in
 
           guard let self = self else {
               return
           }
-          
+
           UIDevice.current.playInputClick()
           self.textDocumentProxy.insertText(" ")
 
@@ -206,7 +206,7 @@ class KeyboardViewController: InputViewController {
               .space
           )
       }
-    
+
       panel.onBackspaceRequested = { [weak self] in
 
           guard let self = self else {
@@ -252,11 +252,11 @@ class KeyboardViewController: InputViewController {
 
       keySenseEmojiPanel = panel
   }
-  
+
   private func setupKeySenseSettingsInterface() {
 
       let panel = KeySenseSettingsViewController()
-    
+
       panel.onABCRequested = { [weak self] in
 
           guard let self = self else {
@@ -275,7 +275,7 @@ class KeyboardViewController: InputViewController {
               }
           }
       }
-    
+
       panel.onResetHeightRequested = { [weak self] in
 
           guard let self = self else {
@@ -315,13 +315,13 @@ class KeyboardViewController: InputViewController {
       ])
 
       panel.didMove(toParent: self)
-    
+
       panel.onHeightSliderChanged = { [weak self] value in
           self?.keySenseSetKeyboardHeight(
               normalizedValue: value
           )
       }
-    
+
       panel.onAppearanceChanged = { [weak self] mode in
 
           guard let self = self else {
@@ -332,9 +332,20 @@ class KeyboardViewController: InputViewController {
           self.applyKeySenseAppearance(mode)
       }
 
+      // Persist convenience setting, then tell the currently-running Keyman
+      // WebView to reapply its lexical model's prediction/correction options.
+      // This does NOT represent a typing or prediction-selection event.
+      panel.onTypingAssistanceChanged = { mode in
+          KeySenseTypingAssistanceStore.mode = mode
+          NotificationCenter.default.post(
+              name: Notification.Name("keysense.typingAssistance.changed"),
+              object: nil
+          )
+      }
+
       keySenseSettingsPanel = panel
   }
-  
+
   @objc
   private func toggleKeySenseEmojiPanel() {
 
@@ -355,7 +366,7 @@ class KeyboardViewController: InputViewController {
           view.bringSubviewToFront(
               panel.view
           )
-        
+
           // Make sure the keyboard and emoji panel
           // have their final geometry first.
           view.setNeedsLayout()
@@ -370,10 +381,10 @@ class KeyboardViewController: InputViewController {
           panel.refreshForPresentation()
 
       }
-      
+
       else {}
   }
-  
+
   private func keySenseTestEmoji(_ emoji: String) {
 
       // Insert into the user's text field.
@@ -385,13 +396,13 @@ class KeyboardViewController: InputViewController {
       )
 
   }
-  
+
   override func viewDidLoad() {
       super.viewDidLoad()
-      
+
       globeKeyTapBehaviour = .switchToNextInputMethod
       menuBehaviour = .showNever
-    
+
       do {
           try keySenseEmojiCatalog.load(
               from: Bundle(for: KeyboardViewController.self)
@@ -411,7 +422,7 @@ class KeyboardViewController: InputViewController {
       setupKeySenseSettingsInterface()
 
       // MARK: - KEYSENSE Debug Session Output
-      
+
       keySenseManager.onSessionPersisted = { [self] session in
 
             let summary = """
@@ -447,9 +458,9 @@ class KeyboardViewController: InputViewController {
 
             wordCount = \(session.wordCount)
             predictionSelectionCount = \(session.predictionSelectionCount)
-            
+
             deletionRate = \(String(describing: session.deletionRate))
-            
+
             activeIkiCount = \(session.activeIkiCount)
             interKeyIntervalMeanMs = \(String(describing: session.interKeyIntervalMeanMs))
             interKeyIntervalMedianMs = \(String(describing: session.interKeyIntervalMedianMs))
@@ -465,7 +476,7 @@ class KeyboardViewController: InputViewController {
             typingBurstCount = \(session.typingBurstCount)
             meanBurstLength = \(String(describing: session.meanBurstLength))
             maxBurstLength = \(session.maxBurstLength)
-            
+
             typingIntervalCv = \(String(describing: session.typingIntervalCv))
             pauseTimeRatio = \(String(describing: session.pauseTimeRatio))
             activeTypingDurationMs = \(session.activeTypingDurationMs)
@@ -474,10 +485,10 @@ class KeyboardViewController: InputViewController {
             charactersPerSecond = \(String(describing: session.charactersPerSecond))
             wordsPerMinute = \(String(describing: session.wordsPerMinute))
             activeTypingRate = \(String(describing: session.activeTypingRate))
-            
+
             charactersPerWord = \(String(describing: session.charactersPerWord))
             newlinesPerWord = \(String(describing: session.newlinesPerWord))
-            
+
             emojiCount = \(session.emojiCount)
             uniqueEmojiCount = \(session.uniqueEmojiCount)
             emojiBurstCount = \(session.emojiBurstCount)
@@ -486,10 +497,10 @@ class KeyboardViewController: InputViewController {
 
             emojiRate = \(String(describing: session.emojiRate))
             emojiDiversityRatio = \(String(describing: session.emojiDiversityRatio))
-            
+
             orientation = \(session.orientation.rawValue)
-            
-            
+
+
 
             ==============================
             """
@@ -501,7 +512,7 @@ class KeyboardViewController: InputViewController {
                 summary
             )
         }
-    
+
       keySenseManager.onPersistenceError = { error in
 
           let message =
@@ -514,13 +525,13 @@ class KeyboardViewController: InputViewController {
               message
           )
       }
-    
+
       print(
           "[KEYSENSE REGRESSION] KeyboardViewController instance = \(ObjectIdentifier(self))"
       )
 
   }
-  
+
   // MARK: - KEYSENSE Input Events
   override func didReceiveKeySenseKey(
       _ category: String
@@ -562,10 +573,10 @@ class KeyboardViewController: InputViewController {
               type: .error,
               "[KEYSENSE] Unknown category ignored: \(category)"
           )
-          
+
       }
   }
-  
+
   override func didReceiveKeySenseShowEmoji() {
 
       guard !isKeySenseEmojiPanelVisible else {
@@ -574,7 +585,7 @@ class KeyboardViewController: InputViewController {
 
       toggleKeySenseEmojiPanel()
   }
-  
+
   override func didReceiveKeySenseShowSettings() {
 
       guard !isKeySenseSettingsPanelVisible else {
@@ -584,13 +595,17 @@ class KeyboardViewController: InputViewController {
       keySenseSettingsPanel?.setHeightSliderValue(
           keySenseCurrentKeyboardHeightNormalized()
       )
-    
+
       keySenseSettingsPanel?.setAppearanceMode(
           KeySenseAppearanceStore.shared.mode
       )
+
+      keySenseSettingsPanel?.setTypingAssistanceMode(
+          KeySenseTypingAssistanceStore.mode
+      )
       toggleKeySenseSettingsPanel()
   }
-  
+
   @objc
   private func toggleKeySenseSettingsPanel() {
 
@@ -616,7 +631,7 @@ class KeyboardViewController: InputViewController {
           panel.view.layoutIfNeeded()
       }
   }
-  
+
   override func didReceiveKeySensePredictionSelection() {
       keySenseManager.registerPredictionSelection()
   }
@@ -630,7 +645,7 @@ class KeyboardViewController: InputViewController {
       overrideUserInterfaceStyle = style
       view.overrideUserInterfaceStyle = style
   }
-  
+
   override func viewWillTransition(
       to size: CGSize,
       with coordinator: UIViewControllerTransitionCoordinator
@@ -678,7 +693,7 @@ class KeyboardViewController: InputViewController {
     if previousTraitCollection.hasDifferentColorAppearance(comparedTo: traitCollection) {
       /* Ensure that the keyboard banner image transitions!  Noting that the backing view isn't in the view hierarchy,
        * and that manipulating said hierarchy is key for triggering the appearance change
-       * (see https://developer.apple.com/documentation/uikit/uiappearance)...
+       * (see https\://developer.apple.com/documentation/uikit/uiappearance)...
        *
        * We have to reload the banner's backing view to trigger the change.  Thanks, Apple.
        * The only other alternative - creating a new instance of the view & its controller.
@@ -686,7 +701,7 @@ class KeyboardViewController: InputViewController {
        * With loadView, at least we can reuse the old instance, which would serve far better
        * for engine API calls if we decide to let the base InputViewController perform UIView
        * render functionality (as a KMEI offering) instead of having it only in our app.
-       * That said, note https://developer.apple.com/documentation/uikit/uiviewcontroller/1621454-loadview:
+       * That said, note https\://developer.apple.com/documentation/uikit/uiviewcontroller/1621454-loadview:
        *
        * > You should never call this method directly.
        *

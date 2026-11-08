@@ -669,6 +669,26 @@ export class SuggestionBanner extends Banner {
           // this will avoid banner-flicker.
           this.currentSuggestions = [];
           this.predictionContext.accept(suggestion.suggestion);
+          // KEYSENSE DEBUG:
+          // Detect an explicit prediction-banner selection.
+          // No suggested text or word identity is transmitted.
+
+          if (
+            suggestion.suggestion.tag !== 'revert' &&
+            suggestion.suggestion.tag !== 'keep' &&
+            typeof window !== 'undefined'
+          ) {
+            const keySenseBridge = (window as any).jsInterface;
+
+            if (
+              keySenseBridge &&
+              typeof keySenseBridge.keySenseDebugAction === 'function'
+            ) {
+              keySenseBridge.keySenseDebugAction(
+                'PREDICTION_SELECTION'
+              );
+            }
+          }
           // Trigger new predictions, as no input exists to trigger new ones otherwise.
           // Reversions will re-use old suggestions, though.
           if(suggestion.suggestion.tag != 'revert') {

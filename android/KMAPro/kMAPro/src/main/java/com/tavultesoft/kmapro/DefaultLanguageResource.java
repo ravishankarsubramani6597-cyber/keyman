@@ -6,9 +6,11 @@ package com.tavultesoft.kmapro;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.util.Log;
 
 import com.keyman.engine.KMManager;
 import com.keyman.engine.data.LexicalModel;
+import com.keyman.engine.data.Keyboard;
 
 import java.util.HashMap;
 
@@ -22,7 +24,7 @@ public class DefaultLanguageResource {
    */
   public static void install(Context context) {
     SharedPreferences prefs = context.getSharedPreferences(context.getString(R.string.kma_prefs_name), Context.MODE_PRIVATE);
-
+    /*
     // Add default keyboard
     boolean installDefaultKeyboard = prefs.getBoolean(defaultKeyboardInstalled, false);
     if (!installDefaultKeyboard) {
@@ -34,6 +36,74 @@ public class DefaultLanguageResource {
       editor.putBoolean(defaultKeyboardInstalled, true);
       editor.commit();
     }
+    */
+
+
+    // KEYSENSE keyboard installation and activation
+
+    Keyboard keysenseKeyboard = new Keyboard(
+        "keysense_eurolatin",
+        "keysense_eurolatin",
+        "KEYSENSE EuroLatin (SIL derivative)",
+        "en",
+        "English",
+        "3.0.5",
+        null,
+        "",
+        true,
+        KMManager.KMDefault_KeyboardFont,
+        KMManager.KMDefault_KeyboardFont
+    );
+
+    // Check existing keyboard registration
+    boolean previouslyInstalled = prefs.getBoolean(
+        "KeySenseKeyboardInstalled", false
+    );
+
+
+    boolean existsBefore = KMManager.keyboardExists(
+        context,
+        "keysense_eurolatin",
+        "keysense_eurolatin",
+        "en"
+    );
+
+    // Register or update KEYSENSE
+    boolean added = KMManager.addKeyboard(
+        context, keysenseKeyboard
+    );
+
+    // Locate KEYSENSE in the registered keyboard list
+    int index = KMManager.getKeyboardIndex(
+        context, "keysense_eurolatin", "en"
+    );
+
+    // Attempt to activate KEYSENSE
+    boolean selected = false;
+
+    if (index >= 0) {
+        selected = KMManager.setKeyboard(context, index);
+    }
+
+    // Set KEYSENSE as the fallback keyboard
+    KMManager.setDefaultKeyboard(keysenseKeyboard);
+
+    // Print registration and selection diagnostics
+    Log.i("KEYSENSE_DEFAULT",
+        "previouslyInstalled=" + previouslyInstalled +
+        " | existsBefore=" + existsBefore +
+        " | added=" + added +
+        " | index=" + index +
+        " | selected=" + selected
+    );
+
+    // Update stored preference after successful selection
+    if (selected) {
+        prefs.edit()
+            .putBoolean("KeySenseKeyboardInstalled", true)
+            .apply();
+    }
+
 
     // Add default dictionary
     boolean installDefaultDictionary = prefs.getBoolean(defaultDictionaryInstalled, false);

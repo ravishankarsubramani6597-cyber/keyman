@@ -52,6 +52,19 @@ public class KMKeyboardJSHandler {
 
   // Get the keyboard height
   // This annotation is required in Jelly Bean and later:
+  // KEYSENSE UI: coarse preference only, not typed content or per-app data.
+  @JavascriptInterface
+  public String getKeySenseTheme() {
+    SharedPreferences prefs = context.getApplicationContext().getSharedPreferences(
+        "keysense_keyboard_ui", Context.MODE_PRIVATE);
+    String selected = prefs.getString("appearance", "system");
+    if ("light".equals(selected) || "dark".equals(selected)) return selected;
+    boolean darkSystem = (context.getResources().getConfiguration().uiMode
+        & android.content.res.Configuration.UI_MODE_NIGHT_MASK)
+        == android.content.res.Configuration.UI_MODE_NIGHT_YES;
+    return darkSystem ? "dark" : "light";
+  }
+
   @JavascriptInterface
   public int getKeyboardHeight() {
     int kbHeight = KMManager.getKeyboardHeight(context);
@@ -125,6 +138,49 @@ public class KMKeyboardJSHandler {
           return;
         }
 
+        EditorInfo currentEditor =
+        KMManager.IMService != null
+            ? KMManager.IMService.getCurrentInputEditorInfo()
+            : null;
+
+        boolean keySenseEligible =
+            KeySenseInputEligibility.isEligible(currentEditor);
+
+        // KEYSENSE DEBUG: Inspect text transformation events.
+        // Never log the actual inserted text.
+        if (k.keyboardType == KeyboardType.KEYBOARD_TYPE_SYSTEM
+          && keySenseEligible
+          && (context.getApplicationInfo().flags
+          & android.content.pm.ApplicationInfo.FLAG_DEBUGGABLE) != 0) {
+
+          Log.d(TAG, "[KEYSENSE DEBUG] insertText bridge"
+            + " | insertion=" + (s != null && !s.isEmpty())
+            + " | deleteLeft=" + (dn > 0)
+            + " | deleteRight=" + (dr > 0)
+            + " | hardware=" + executingHardwareKeystroke);
+
+          KeySenseEventClassifier.EditType editType =
+          KeySenseEventClassifier.classify(dn, s, dr);
+          Log.d(TAG, "[KEYSENSE DEBUG] editType=" + editType);
+        }
+
+        // KEYSENSE DEBUG:
+        // Detect whether Keyman's proposed text transformation
+        // contains a newline. This does NOT prove a newline
+        // was actually committed to the editor.
+
+        if (s != null
+                && s.indexOf('\n') >= 0
+                && KMManager.IMService != null
+                && (KMManager.IMService.getApplicationInfo().flags
+                    & android.content.pm.ApplicationInfo.FLAG_DEBUGGABLE) != 0
+                && KeySenseInputEligibility.isEligible(
+                    KMManager.IMService.getCurrentInputEditorInfo())) {
+
+            Log.d(TAG,
+                "[KEYSENSE DEBUG] newlineTransformCandidate=true");
+        }
+
         ic.beginBatchEdit();
 
         int deleteLeft = dn;
@@ -193,10 +249,13 @@ public class KMKeyboardJSHandler {
                 break;
 
               // Messaging apps
-              case NEWLINE :
-                // Send newline and advance cursor
-                ic.commitText("\n", 1);
-                break;
+              case NEWLINE:
+              // KEYSENSE: Count only a successful newline
+              // commit request, not a generic Enter action.
+              if (ic.commitText("\n", 1)) {
+                  KeySenseLiveDebug.onValidatedCategory("NEWLINE");
+              }
+              break;
 
               // Default ENTER action
               default:
@@ -247,6 +306,115 @@ public class KMKeyboardJSHandler {
         if (parent != null && KMManager.getHapticFeedback() && !executingHardwareKeystroke) {
           parent.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY, HapticFeedbackConstants.FLAG_IGNORE_GLOBAL_SETTING);
         }
+      }
+    });
+  }
+
+  /**
+   * KEYSENSE: Native click feedback for an actual on-screen key action.
+   * UI-only; no key identifiers, entered text or sensing metadata cross this bridge.
+   * AudioManager's one-argument API respects Android's system sound settings.
+   */
+  @JavascriptInterface
+  public void keySensePlayKeySound() {
+    new Handler(Looper.getMainLooper()).post(() -> {
+      if (k == null || k.keyboardType != KeyboardType.KEYBOARD_TYPE_SYSTEM) {
+        return;
+      }
+      if (KMManager.IMService == null ||
+          KMManager.getInputConnection(KeyboardType.KEYBOARD_TYPE_SYSTEM) == null) {
+        return;
+      }
+      android.media.AudioManager audio =
+          (android.media.AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
+      if (audio != null) {
+        audio.playSoundEffect(android.media.AudioManager.FX_KEY_CLICK);
+      }
+    });
+  }
+
+  /**
+   * KEYSENSE: Diagnostic bridge for classified
+   * original keyboard actions.
+   *
+   * Receives an event category only.
+   * Never receives or logs typed characters.
+   */
+  @JavascriptInterface
+  public void keySenseDebugAction(final String category) {
+
+    // Accept only predefined metadata categories.
+    if (category == null) {
+      return;
+    }
+
+    switch (category) {
+      case "LOWERCASE":
+      case "UPPERCASE":
+      case "NUMBER":
+      case "SPECIAL_WORD_INTERNAL":
+      case "SPECIAL_OTHER":
+      case "SPACE":
+      case "LETTER_KEY":
+      case "NEWLINE":
+      case "BACKSPACE":
+      case "EMOJI":
+      case "PREDICTION_SELECTION":
+      case "LETTER_SHIFT_LAYER":
+      case "LETTER_OTHER_LAYER":
+      case "LETTER_LAYER_UNKNOWN":
+      case "LETTER_BASE_STATE":
+      case "LETTER_SHIFT_STATE":
+      case "LETTER_CAPS_STATE":
+      case "LETTER_SHIFT_CAPS_STATE":
+      case "LETTER_STATE_UNKNOWN":
+      case "ENTER_CANDIDATE":
+      case "EXTRA_UNRESOLVED":
+        break;
+
+      default:
+        return;
+    }
+
+    new Handler(Looper.getMainLooper()).post(() -> {
+
+      // Only instrument the Android system keyboard.
+      if (k == null ||
+          k.keyboardType != KeyboardType.KEYBOARD_TYPE_SYSTEM) {
+        return;
+      }
+
+      // Diagnostic instrumentation only in debug builds.
+      if ((context.getApplicationInfo().flags
+          & android.content.pm.ApplicationInfo.FLAG_DEBUGGABLE) == 0) {
+        return;
+      }
+
+      // Fail closed if the input context is unavailable.
+      if (KMManager.IMService == null) {
+        return;
+      }
+
+      // Recheck privacy eligibility at processing time.
+      if (!KeySenseInputEligibility.isEligible(
+          KMManager.IMService.getCurrentInputEditorInfo())) {
+        return;
+      }
+
+      Log.d(TAG, "[KEYSENSE DEBUG] originalAction=" + category);
+      KeySenseLiveDebug.onValidatedCategory(category);
+    });
+  }
+
+  // KEYSENSE: dedicated touch-layout Settings/Emoji keys -> native IME panel.
+  // This is a UI action, not a typing metric; never forward a key identity or text.
+  @JavascriptInterface
+  public void keySenseUiAction(final String action) {
+    if (!"SETTINGS".equals(action) && !"EMOJI".equals(action)) return;
+    new Handler(Looper.getMainLooper()).post(() -> {
+      if (k == null || k.keyboardType != KeyboardType.KEYBOARD_TYPE_SYSTEM) return;
+      if (KMManager.IMService instanceof KeySenseUiActionTarget) {
+        ((KeySenseUiActionTarget) KMManager.IMService).onKeySenseUiAction(action);
       }
     });
   }

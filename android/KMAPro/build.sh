@@ -41,7 +41,7 @@ fi
 
 # Locations for bundled keyboard and lexical model
 
-KEYBOARD_PACKAGE_ID="sil_euro_latin"
+KEYBOARD_PACKAGE_ID="keysense_eurolatin"
 KEYBOARDS_TARGET="android/KMAPro/kMAPro/src/main/assets/${KEYBOARD_PACKAGE_ID}.kmp"
 MODEL_PACKAGE_ID="nrc.en.mtnt"
 MODELS_TARGET="android/KMAPro/kMAPro/src/main/assets/${MODEL_PACKAGE_ID}.model.kmp"
@@ -53,7 +53,16 @@ builder_describe_outputs \
 #### Build action definitions ####
 
 do_configure() {
-  downloadKeyboardPackage "$KEYBOARD_PACKAGE_ID" "${KEYMAN_ROOT}/$KEYBOARDS_TARGET"
+  # KEYSENSE: Use our locally compiled keyboard package.
+  if [ ! -f "${KEYMAN_ROOT}/${KEYBOARDS_TARGET}" ]; then
+    echo "ERROR: KEYSENSE keyboard package not found." >&2
+    return 1
+  fi
+
+  # Remove the original SIL keyboard from APK assets.
+  rm -f "${KEYMAN_ROOT}/android/KMAPro/kMAPro/src/main/assets/sil_euro_latin.kmp"
+
+  # Keep the English prediction dictionary.
   downloadModelPackage "$MODEL_PACKAGE_ID" "${KEYMAN_ROOT}/$MODELS_TARGET"
 }
 

@@ -15,14 +15,133 @@ var fragmentToggle = 0;
 var deferredBannerCall;
 var longpressDelay = null;
 
+/* KEYSENSE UI: apply native appearance preference to the Keyman WebView.
+ * Keyman Web keyboard CSS owns its own colors; changing only the banner is insufficient.
+ * These styles touch appearance only; never key positions or key-event logic.
+ * Limit this test to the bundled EuroLatin keyboard before making it production-wide.
+ */
+function keySenseApplyAppearance() {
+  var theme = 'system';
+  try {
+    if (window.jsInterface && typeof window.jsInterface.getKeySenseTheme === 'function') {
+      theme = window.jsInterface.getKeySenseTheme();
+    }
+  } catch (ignore) { }
+  var html = document.documentElement;
+  html.classList.remove('keysense-force-light', 'keysense-force-dark');
+  if (theme === 'light') html.classList.add('keysense-force-light');
+  if (theme === 'dark') html.classList.add('keysense-force-dark');
+}
+
+function keySenseInstallAppearanceStyles() {
+  var id = 'keysense-osk-appearance';
+  if (document.getElementById(id)) return;
+  var s = document.createElement('style');
+  s.id = id;
+  s.textContent = [
+    'html.keysense-force-light body, html.keysense-force-light .kmw-osk-frame, html.keysense-force-light .kmw-osk-inner-frame, html.keysense-force-light .kmw-key-layer-group, html.keysense-force-light .kmw-key-layer { background-color: #e3e5e9 !important; }',
+    'html.keysense-force-light .kmw-key:not(.kmw-key-hidden) { background: #fafbfc !important; color: #17191d !important; }',
+    'html.keysense-force-light .kmw-key-text, html.keysense-force-light .kmw-key-popup-icon { color: #17191d !important; }',
+    'html.keysense-force-light [class*="banner"] { background-color: #e3e5e9 !important; color: #17191d !important; }',
+    'html.keysense-force-light [class*="banner"] * { color: #17191d !important; }',
+    'html.keysense-force-dark .kmw-osk-frame, html.keysense-force-dark .kmw-osk-inner-frame { background: #252529 !important; }',
+    'html.keysense-force-dark .kmw-key:not(.kmw-key-hidden) { background: #66666a !important; color: #ffffff !important; }',
+    'html.keysense-force-dark .kmw-key-text, html.keysense-force-dark .kmw-key-popup-icon { color: #ffffff !important; }'
+  ].join('\n');
+  (document.head || document.documentElement).appendChild(s);
+}
+
 var sentryManager = new KeymanSentryManager({
   hostPlatform: "android"
 });
 sentryManager.init();
 
+/*
+ * KEYSENSE Android, debug-only, standard English-layout key-ID diagnostic.
+ * Does not inspect, log, or transfer typed text. Returns metadata labels only.
+ * This is deliberately NOT a general character-output classifier.
+ * Must be called only for actual OSK 'keyevent' events, NOT insertText edits.
+ */
+function keySenseClassifyExtraOSKAction(keyEvent) {
+  if (!keyEvent || typeof keyEvent.kName !== 'string') {
+    return null;
+  }
+
+  var name = keyEvent.kName;
+  if (name === 'K_ENTER') {
+    // Enter may submit/send rather than insert a newline; DO NOT count yet.
+    return 'ENTER_CANDIDATE';
+  }
+
+  var layer = typeof keyEvent.kLayer === 'string'
+    ? keyEvent.kLayer.toLowerCase()
+    : (typeof keyEvent.kbdLayer === 'string'
+        ? keyEvent.kbdLayer.toLowerCase()
+        : '');
+
+  if (/^K_[0-9]$/.test(name)) {
+    // Restrict estimated categories to conventional layers already tested.
+    if (layer === 'default' || layer === 'caps' || layer === 'numeric') {
+      return 'NUMBER';
+    }
+    if (layer === 'shift') {
+      // Standard US English shifted digit row = punctuation.
+      return 'SPECIAL_OTHER';
+    }
+    return 'EXTRA_UNRESOLVED';
+  }
+
+  // Some Keyman touch layouts identify a literal key by its Unicode ID
+  // (e.g., U_002D for hyphen or U_0021 for exclamation). Decode ONLY
+  // transiently in JS; send only the coarse category across the bridge.
+  // A key ID describes a layout key, not guaranteed output after Keyman rules.
+  var unicodeKey = /^U_([0-9A-F]{4,6})$/i.exec(name);
+  if (unicodeKey) {
+    var cp = parseInt(unicodeKey[1], 16);
+    if (cp >= 0x30 && cp <= 0x39) return 'NUMBER';
+    if (cp === 0x2D || cp === 0x27) return 'SPECIAL_WORD_INTERNAL';
+    if ((cp >= 0x21 && cp <= 0x2F) ||
+        (cp >= 0x3A && cp <= 0x40) ||
+        (cp >= 0x5B && cp <= 0x60) ||
+        (cp >= 0x7B && cp <= 0x7E)) return 'SPECIAL_OTHER';
+    return 'EXTRA_UNRESOLVED';
+  }
+
+  var punct = /^(K_BKQUOTE|K_HYPHEN|K_EQUAL|K_LBRKT|K_RBRKT|K_BKSLASH|K_SEMICOLON|K_QUOTE|K_COMMA|K_PERIOD|K_SLASH)$/.test(name);
+  if (!punct) {
+    // Diagnostic only: a keyevent occurred, but its ID is not supported.
+    // Modifier/navigation keys deliberately excluded to reduce noise.
+    if (/^K_[A-Z0-9_]+$/.test(name) &&
+        !/^K_[A-Z]$/.test(name) &&
+        !/^(K_SHIFT|K_CAPS|K_LOPT|K_ROPT|K_LSHIFT|K_RSHIFT|K_NUMLOCK|K_SCROLL|K_CTRL|K_ALT|K_TAB|K_LEFT|K_RIGHT|K_UP|K_DOWN|K_BKSP|K_SPACE)$/.test(name)) {
+      return 'EXTRA_UNRESOLVED';
+    }
+    return null;
+  }
+
+  if (layer !== 'default' && layer !== 'caps' && layer !== 'shift') {
+    return 'EXTRA_UNRESOLVED';
+  }
+
+  // On a conventional English keyboard, unshifted ' and - may be word-internal.
+  // The accumulator intentionally does not create a word from punctuation alone.
+  if ((name === 'K_QUOTE' || name === 'K_HYPHEN') && layer !== 'shift') {
+    return 'SPECIAL_WORD_INTERNAL';
+  }
+
+  return 'SPECIAL_OTHER';
+}
+
+// Optional export for isolated Node tests. No module is required by Android.
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = keySenseClassifyExtraOSKAction;
+}
+
 window.addEventListener('load', init, false);
 
 function init() {
+  keySenseInstallAppearanceStyles();
+  keySenseApplyAppearance();
   //document.body.style.backgroundColor="transparent";
   //window.console.log('Device type = '+device);
   //window.console.log('Keyboard height = '+oskHeight);
@@ -54,7 +173,91 @@ function init() {
     'fonts':'packages/',
     oninserttext: insertText,
     root:'./'
-  }).then(function () {  // Note:  For non-upgraded API 21, arrow functions will break the keyboard!
+  }).then(function () {
+    // KEYSENSE DEBUG: Observe original OSK key events.
+    // Only transmit predefined event categories.
+    // Never transmit typed characters or keyboard context.
+    if (keyman.osk && typeof keyman.osk.on === 'function') {
+
+      keyman.osk.on('keyevent', function (keyEvent) {
+
+        if (!keyEvent || !window.jsInterface) {
+          return;
+        }
+
+        // KEYSENSE: sound feedback for an actual on-screen key tap.
+        // No key identity or typed content is passed to the native bridge.
+        // Settings and Emoji open native panels and have their own UI feedback.
+        if (keyEvent.kName !== 'T_KS_SETTINGS' &&
+            keyEvent.kName !== 'T_KS_EMOJI' &&
+            typeof window.jsInterface.keySensePlayKeySound === 'function') {
+          window.jsInterface.keySensePlayKeySound();
+        }
+
+        // Dedicated KEYSENSE control keys have real layout positions.
+        // Do not classify these as typing events or prediction selections.
+        if (keyEvent.kName === 'T_KS_SETTINGS' ||
+            keyEvent.kName === 'T_KS_EMOJI') {
+          if (typeof window.jsInterface.keySenseUiAction === 'function') {
+            window.jsInterface.keySenseUiAction(
+              keyEvent.kName === 'T_KS_SETTINGS' ? 'SETTINGS' : 'EMOJI');
+          }
+          return;
+        }
+
+        var category = null;
+
+        if (keyEvent.kName === 'K_SPACE') {
+          category = 'SPACE';
+        } else if (keyEvent.kName === 'K_BKSP') {
+          category = 'BACKSPACE';
+        } else if (
+          typeof keyEvent.kName === 'string' &&
+          /^K_[A-Z]$/.test(keyEvent.kName)
+        ) {
+
+          // KEYSENSE DEBUG:
+          // Match Keyman's effective key-layer state.
+          // Never send key identity or typed content.
+
+          var layer =
+            typeof keyEvent.kLayer === 'string'
+              ? keyEvent.kLayer
+              : keyEvent.kbdLayer;
+
+          if (typeof layer !== 'string' || layer.length === 0) {
+            category = 'LETTER_STATE_UNKNOWN';
+          } else {
+            var normalizedLayer = layer.toLowerCase();
+
+            var hasShift = normalizedLayer.indexOf('shift') >= 0;
+            var hasCaps = normalizedLayer.indexOf('caps') >= 0;
+
+            if (hasShift && hasCaps) {
+              category = 'LETTER_SHIFT_CAPS_STATE';
+            } else if (hasCaps) {
+              category = 'LETTER_CAPS_STATE';
+            } else if (hasShift) {
+              category = 'LETTER_SHIFT_STATE';
+            } else {
+              category = 'LETTER_BASE_STATE';
+            }
+          }
+        }
+
+        if (category === null) {
+          category = keySenseClassifyExtraOSKAction(keyEvent);
+        }
+
+        if (category !== null &&
+            typeof window.jsInterface.keySenseDebugAction === 'function') {
+
+          window.jsInterface.keySenseDebugAction(category);
+        }
+      });
+    }
+
+    // Note:  For non-upgraded API 21, arrow functions will break the keyboard!
     bannerHeight = Math.ceil(window.jsInterface.getDefaultBannerHeight() / window.devicePixelRatio);
     if (bannerHeight > 0) {
 
